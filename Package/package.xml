@@ -5,11 +5,7 @@
         <members>UA_ACC_SR01_Country_field_sharing</members>
         <name>AccountCriteriaBasedSharingRule</name>
     </types>
-    <types>
-        <members>MA_ACC_SR02_IntraCountryRole_Sharing</members>
-        <members>UA_ACC_SR02_Country_field_sharing</members>
-        <name>AccountOwnerSharingRule</name>
-    </types>
+
     <types>
         <members>CaseTriggerHandler</members>
         <members>LMT_BVMComplet_WS_MK</members>
