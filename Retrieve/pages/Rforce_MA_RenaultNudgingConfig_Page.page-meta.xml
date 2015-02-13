@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>30.0</apiVersion>
+    <availableInTouch>false</availableInTouch>
+    <confirmationTokenRequired>false</confirmationTokenRequired>
+    <description>This page will contain MA  Renault Configuration of Deployment and Nudging. Which will enable us to display the online / offline pages</description>
+    <label>Rforce_MA_RenaultNudgingConfig_Page</label>
+</ApexPage>

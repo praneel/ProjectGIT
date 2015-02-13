@@ -1,0 +1,1797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>BudgetCode__c</fullName>
+        <externalId>false</externalId>
+        <label>Budget Code</label>
+        <picklist>
+            <picklistValues>
+                <fullName>1CO_Coussinets</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>1LVE_Lève Vitres</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Air conditioning</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Car Radio</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Certification</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Cluthc</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Coyote Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CSD Delegated 2nd Hand</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CSD fleet</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CSD Pays Customer Chq - Fleet</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CSD Pays Customer Fleet</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CSD Pays Customer Invoice - Fl</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CSD Pays Customer - Legal Fees</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CSD Pays Customer - Retail</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CSD Pays Dealer - Fleet</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CSD Pays Dealer - Legal Fees</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CSD Pays Dealer - Retail</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CSD STANDARD EXCHANGE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Dealer</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Dealer contribution</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Delivery delay</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Direct Sales</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Discovery Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Engine flywheel</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>F9Q ALTERNATOR PULLEY</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Fleet Budget Spec. Sales Dep.</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Gear</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>K9K H.P. Fuel Pump</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Legal Budget</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LPG</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MKT/Sales</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>P9X</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Parts warehouse</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PCO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Product / Engineering</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PSC ESPACE 2011</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Renault Assistance</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Rental vehicle</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sigma Sevice</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Spoiler K84</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SRC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SRC for after sales</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SRC-QTR (BR)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Steering wheel skinned</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Tie-beam door</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Timing / alternator belt</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Tom Tom Live Service</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Turbo</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Warranty</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Warranty repair 2nd year</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>X84 Compresseur Airco</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Z.E. Connect Services</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>true</sorted>
+        </picklist>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Country__c</fullName>
+        <externalId>false</externalId>
+        <label>Country</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Algeria</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Allemange</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Argentina</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Austria</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Belgium</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Brazil</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>China</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Colombia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Croatia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Czech Republic</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DEMO Cntry</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Denmark</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Estonia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>France</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Germany</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Hungary</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>India</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ireland</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Italy</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Latvia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Lithuania</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mexico</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Morocco</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Netherlands</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Nordic</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Poland</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Portugal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Romania</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Russia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Serbia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Slovakia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Slovenia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>South Africa</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Spain</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sweden</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Switzerland</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Turkey</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>UK</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ukraine</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>United States</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>true</sorted>
+        </picklist>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>CurrencyCode__c</fullName>
+        <externalId>false</externalId>
+        <label>Currency Code</label>
+        <picklist>
+            <picklistValues>
+                <fullName>BRL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CHF</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CNY</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CZK</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DKK</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DZD</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ESP</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>EUR</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>GBP</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HRK</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HUF</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ITL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MXN</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>RSD</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>RUB</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SEK</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TRY</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>UAH</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>true</sorted>
+        </picklist>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>ExpenseCode__c</fullName>
+        <externalId>false</externalId>
+        <label>Expense Code</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Additional services</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Certification</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Framework_PGCS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Framework_Service</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>GARANTIE ECHANGE STANDARD</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Intensive User</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Low Mileage</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Manufacturer paying</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Manufacturing defect</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>No Technical Fix</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Numerous Faults</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Offre Client Multi-pannes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>OTC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>OTS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Parts dept.</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Parts no longer manufactured</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PGCS : Manu. Liability</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Premier Customer</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Refusal Goodwill Network</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Repeated Incident</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Retaining Offer</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sales Problem</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Service Problem</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Small amount</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Std Exchange Warranty</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TAFI</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Unfair price</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Vehicle Change</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>VIP Customer</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>VO Warranty</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Warranty_1-12 Month</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Warranty_1-24 Month</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Warranty_Anti-Corrosion</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Warranty_New Parts</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Warranty_O.R</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Warranty_Parts</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>true</sorted>
+        </picklist>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Organ__c</fullName>
+        <externalId>false</externalId>
+        <label>Incident Type</label>
+        <picklist>
+            <controllingField>Country__c</controllingField>
+            <picklistValues>
+                <fullName>AC COMPRESSOR</fullName>
+                <controllingFieldValues>Brazil</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ANTITHEFT SWITCH</fullName>
+                <controllingFieldValues>Brazil</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AUTOMATIC GEARBOX</fullName>
+                <controllingFieldValues>Brazil</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>BATTERY</fullName>
+                <controllingFieldValues>Brazil</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>BRAKE DISC</fullName>
+                <controllingFieldValues>Brazil</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>BRAKE PADS</fullName>
+                <controllingFieldValues>Brazil</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>BUMPERS</fullName>
+                <controllingFieldValues>Brazil</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CATALYTIC</fullName>
+                <controllingFieldValues>Brazil</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CLUTCH</fullName>
+                <controllingFieldValues>Brazil</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>GMV</fullName>
+                <controllingFieldValues>Brazil</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>INJECTION PUMP</fullName>
+                <controllingFieldValues>Brazil</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LIGHTING</fullName>
+                <controllingFieldValues>Brazil</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MANUAL GEARBOX</fullName>
+                <controllingFieldValues>Brazil</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ROOF BARS</fullName>
+                <controllingFieldValues>Brazil</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>STEERING BOX</fullName>
+                <controllingFieldValues>Brazil</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>STEERING COLUMN</fullName>
+                <controllingFieldValues>Brazil</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TIMING BELT</fullName>
+                <controllingFieldValues>Brazil</controllingFieldValues>
+                <controllingFieldValues>Italy</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TIRE</fullName>
+                <controllingFieldValues>Brazil</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TURBO</fullName>
+                <controllingFieldValues>Algeria</controllingFieldValues>
+                <controllingFieldValues>Argentina</controllingFieldValues>
+                <controllingFieldValues>Belgium</controllingFieldValues>
+                <controllingFieldValues>Brazil</controllingFieldValues>
+                <controllingFieldValues>China</controllingFieldValues>
+                <controllingFieldValues>Colombia</controllingFieldValues>
+                <controllingFieldValues>Czech Republic</controllingFieldValues>
+                <controllingFieldValues>France</controllingFieldValues>
+                <controllingFieldValues>Hungary</controllingFieldValues>
+                <controllingFieldValues>Ireland</controllingFieldValues>
+                <controllingFieldValues>Mexico</controllingFieldValues>
+                <controllingFieldValues>Netherlands</controllingFieldValues>
+                <controllingFieldValues>Poland</controllingFieldValues>
+                <controllingFieldValues>Portugal</controllingFieldValues>
+                <controllingFieldValues>Russia</controllingFieldValues>
+                <controllingFieldValues>South Africa</controllingFieldValues>
+                <controllingFieldValues>Spain</controllingFieldValues>
+                <controllingFieldValues>Switzerland</controllingFieldValues>
+                <controllingFieldValues>Turkey</controllingFieldValues>
+                <controllingFieldValues>Ukraine</controllingFieldValues>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>WINDOW MECH.</fullName>
+                <controllingFieldValues>Brazil</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LPG</fullName>
+                <controllingFieldValues>Italy</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ENGINE</fullName>
+                <controllingFieldValues>Italy</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>GEAR BOX</fullName>
+                <controllingFieldValues>Italy</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>STEERING WHEEL</fullName>
+                <controllingFieldValues>Italy</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AIR CONDITIONING</fullName>
+                <controllingFieldValues>Italy</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>All</fullName>
+                <controllingFieldValues>Austria</controllingFieldValues>
+                <controllingFieldValues>Germany</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PRODUCT QUALITY</fullName>
+                <controllingFieldValues>Romania</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>ResolutionCode__c</fullName>
+        <externalId>false</externalId>
+        <label>Resolution Code</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Accessories</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Additional services</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Attestation Constructeur</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Attestation de transformation</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Attestation et Francisation</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Buy back vehicle</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carnet garantie et entretien</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CAR RENTAL GOODWILL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CAR RENTAL GOODWILL (due to parts unavailability)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Certificate</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>COMMERCIAL GOODWILL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Correct to spec</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Customer Cheque</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Dealer Car Hire</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Dealer Voucher Claimed</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Dealer Voucher Committed</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Diagnosis Fee</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Duplicata de COC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Enterprise Hire Vehicle</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>EXTENDED WARRANTY</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Financial Participation</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Free diagnosis</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ICM Contribution Increase</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Legal Investigation</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Loan of Vehicle</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Loss of Use</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Maintenance Contract offer</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Network paying</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>No Compensation</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NO GOODWILL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Non-Cash Goodwill</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Notice d&apos;utilisation</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Notice descriptive</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>OTS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Plaque Constructeur</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Repair Contribution</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Response/Explanation</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Service Voucher Claimed</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Service Voucher Committed</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Support New Vehicle Sale</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Support Used Vehicle Sale</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TECHNICAL GOODWILL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Vehicle Change</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Vehicle Repair</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>VEHICLE REPLACEMENT GOODWILL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Voucher</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Warranty_1-24 Month</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>true</sorted>
+        </picklist>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <recordTypes>
+        <fullName>MA_GOO_Commercial_RecType</fullName>
+        <active>true</active>
+        <description>This is for specific Morocco Country Commercial RecType</description>
+        <label>MA GOO Commercial RecType</label>
+        <picklistValues>
+            <picklist>BudgetCode__c</picklist>
+            <values>
+                <fullName>1CO_Coussinets</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1LVE_Lève Vitres</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer contribution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fleet Budget Spec%2E Sales Dep%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>K9K H%2EP%2E Fuel Pump</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legal Budget</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MKT%2FSales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P9X</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PCO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Parts warehouse</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renault Assistance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SRC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sigma Sevice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spoiler K84</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Turbo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warranty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>X84 Compresseur Airco</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Country__c</picklist>
+            <values>
+                <fullName>Morocco</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CurrencyCode__c</picklist>
+            <values>
+                <fullName>BRL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CNY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CZK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DKK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ESP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EUR</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>GBP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HUF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ITL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RUB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SEK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TRY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UAH</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ExpenseCode__c</picklist>
+            <values>
+                <fullName>Additional services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Certification</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Framework_PGCS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Framework_Service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Intensive User</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low Mileage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manufacturer paying</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manufacturing defect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Technical Fix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Numerous Faults</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OTS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Parts dept%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Refusal Goodwill Network</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Repeated Incident</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retaining Offer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Std Exchange Warranty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unfair price</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VIP Customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vehicle Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warranty_1-12 Month</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warranty_1-24 Month</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warranty_Anti-Corrosion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warranty_New Parts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warranty_O%2ER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warranty_Parts</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Organ__c</picklist>
+            <values>
+                <fullName>AC COMPRESSOR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AIR CONDITIONING</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ANTITHEFT SWITCH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AUTOMATIC GEARBOX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>All</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BATTERY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BRAKE DISC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BRAKE PADS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BUMPERS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CATALYTIC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CLUTCH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ENGINE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GEAR BOX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GMV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INJECTION PUMP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LIGHTING</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LPG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MANUAL GEARBOX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PRODUCT QUALITY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ROOF BARS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>STEERING BOX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>STEERING COLUMN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>STEERING WHEEL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TIMING BELT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TIRE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TURBO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WINDOW MECH%2E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ResolutionCode__c</picklist>
+            <values>
+                <fullName>Buy back vehicle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correct to spec</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EXTENDED WARRANTY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Participation</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Free diagnosis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legal Investigation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Loan of Vehicle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maintenance Contract offer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Network paying</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Compensation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OTS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Response%2FExplanation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Support New Vehicle Sale</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Support Used Vehicle Sale</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vehicle Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vehicle Repair</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Voucher</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>UA_GOO_Commercial_RecType</fullName>
+        <active>true</active>
+        <description>UA Commercial Record Type</description>
+        <label>UA GOO Commercial RecType</label>
+        <picklistValues>
+            <picklist>BudgetCode__c</picklist>
+            <values>
+                <fullName>1CO_Coussinets</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1LVE_Lève Vitres</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer contribution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fleet Budget Spec%2E Sales Dep%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>K9K H%2EP%2E Fuel Pump</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legal Budget</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MKT%2FSales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P9X</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PCO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Parts warehouse</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renault Assistance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rental vehicle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SRC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sigma Sevice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spoiler K84</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Turbo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warranty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>X84 Compresseur Airco</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Country__c</picklist>
+            <values>
+                <fullName>Ukraine</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CurrencyCode__c</picklist>
+            <values>
+                <fullName>UAH</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ExpenseCode__c</picklist>
+            <values>
+                <fullName>Additional services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Certification</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Framework_PGCS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Framework_Service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Intensive User</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low Mileage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manufacturer paying</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manufacturing defect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Technical Fix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Numerous Faults</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OTS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Parts dept%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Parts no longer manufactured</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Refusal Goodwill Network</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Repeated Incident</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retaining Offer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Std Exchange Warranty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unfair price</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VIP Customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vehicle Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warranty_1-12 Month</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warranty_1-24 Month</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warranty_Anti-Corrosion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warranty_New Parts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warranty_O%2ER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warranty_Parts</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Organ__c</picklist>
+            <values>
+                <fullName>AC COMPRESSOR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AIR CONDITIONING</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ANTITHEFT SWITCH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AUTOMATIC GEARBOX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>All</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BATTERY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BRAKE DISC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BRAKE PADS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BUMPERS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CATALYTIC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CLUTCH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ENGINE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GEAR BOX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GMV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INJECTION PUMP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LIGHTING</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LPG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MANUAL GEARBOX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PRODUCT QUALITY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ROOF BARS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>STEERING BOX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>STEERING COLUMN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>STEERING WHEEL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TIMING BELT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TIRE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TURBO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WINDOW MECH%2E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ResolutionCode__c</picklist>
+            <values>
+                <fullName>Buy back vehicle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correct to spec</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EXTENDED WARRANTY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Participation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Free diagnosis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legal Investigation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Loan of Vehicle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Network paying</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Compensation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OTS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Response%2FExplanation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Support New Vehicle Sale</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Support Used Vehicle Sale</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vehicle Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vehicle Repair</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Voucher</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+</CustomObject>

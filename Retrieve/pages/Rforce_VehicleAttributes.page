@@ -1,0 +1,446 @@
+<apex:page standardController="VEH_Veh__c" extensions="Rforce_VehicleAttributes" showHeader="false" sidebar="false">
+
+    <apex:form id="WebservicePanels" >
+    <apex:commandButton id="warrantybtn" action="{!getWarrantyData}" rerender="WebservicePanels" value="{!$Label.VFP05WarrantyDates}" />
+    <apex:commandButton id="warrantyhistorybtn"  action="{!getWarrantyHistoryData}" rerender="WebservicePanels" value="{!$Label.VFP05_Warranty_History}" />
+    <apex:commandButton id="otsbtn" action="{!getOTSData}" rerender="WebservicePanels" value="{!$Label.VFP05_OTS}" />
+ 
+<apex:actionStatus id="mySaveStatus1">
+<apex:facet name="stop">
+
+ <apex:commandButton id="rcsbtn" action="{!getArchives}" status="mySaveStatus1" rerender="WebservicePanels" value="{!$Label.VFP05_Archivage}" />
+
+</apex:facet>
+<apex:facet name="start">
+<apex:outputPanel >
+<apex:commandButton value="{!$Label.VFP05_Searching}" status="mySaveStatus1" disabled="true"/>
+<apex:image value="/img/loading32.gif" style="height: 15px;"/>
+
+</apex:outputPanel>
+</apex:facet>
+</apex:actionStatus>
+
+    <apex:outputPanel id="idWarrantyPanel" rendered="{!IF(showDetail = 2,true, false)}">   
+  
+        <apex:pageblock > 
+            <apex:pageblocksection title="{!$Label.VFP05WarrantyDates}" >
+                <apex:dataTable value="{!wpList}" var="w">
+                    <apex:column value="{!w.Type}" headerValue="{!$Label.VFP05_Type}" width="200px" />
+                    <apex:column value="{!w.datFinGar}" headerValue="{!$Label.VFP05_End_Date}"  width="200px"/>
+                    <apex:column value="{!w.kmMaxGar}" headerValue="{!$Label.VFP05_Max_Km}" width="200px" />
+                </apex:dataTable>
+            </apex:pageblocksection>
+        </apex:pageblock>
+
+    </apex:outputpanel>  
+
+    <apex:outputPanel id="idWarrantyHistoryPanel" rendered="{!IF(showDetail = 7,true, false)}">   
+        <apex:pageblock >
+        <p> 
+            <apex:outputText value="{!$Label.MashupClickToSee}" />
+        </p>
+            <apex:pageblocksection title="{!$Label.VFP05_Warranty_History}" >
+                 <apex:dataTable value="{!whList}" var="w" width="800">
+                    <apex:column width="150px" onmousemove="this.parentNode.style.backgroundColor='lightgrey'" onmouseout="this.parentNode.style.backgroundColor =''" >
+                        <apex:facet name="header">{!$Label.VFP05_Date}</apex:facet>
+                        <apex:outputText value="{!w.datOuvOr}" />
+                        <apex:actionSupport event="onclick" action="{!getWarrantyHistoryDetailData}" rerender="WarrantyDetailsPanel" status="status" >
+                            <apex:Param name="modulo" value="{!w.modulo}" assignTo="{!modulo}" />
+                            <apex:Param name="numInt" value="{!w.numInt}" assignTo="{!numInt}" />
+                            <apex:Param name="histoBim" value="{!w.histoBim}" assignTo="{!histoBim}" />
+                            <apex:Param name="rc" value="{!w.rc}" assignTo="{!rc}" />
+                        </apex:actionSupport>
+                    </apex:column>
+                    <apex:column width="150px" onmousemove="this.parentNode.style.backgroundColor='lightgrey'" onmouseout="this.parentNode.style.backgroundColor =''" >
+                        <apex:facet name="header">{!$Label.VFP05_Km}</apex:facet>
+                        <apex:outputText value="{!w.km}" />
+                        <apex:actionSupport event="onclick" action="{!getWarrantyHistoryDetailData}" rerender="WarrantyDetailsPanel" status="status" >
+                            <apex:Param name="modulo" value="{!w.modulo}" assignTo="{!modulo}" />
+                            <apex:Param name="numInt" value="{!w.numInt}" assignTo="{!numInt}" />
+                            <apex:Param name="histoBim" value="{!w.histoBim}" assignTo="{!histoBim}" />
+                            <apex:Param name="rc" value="{!w.rc}" assignTo="{!rc}" />
+                        </apex:actionSupport>
+                    </apex:column>
+                    <apex:column width="150px" onmousemove="this.parentNode.style.backgroundColor='lightgrey'" onmouseout="this.parentNode.style.backgroundColor =''" >
+                        <apex:facet name="header">{!$Label.VFP05_RC}</apex:facet>
+                        <apex:outputText value="{!w.rc}" />
+                        <apex:actionSupport event="onclick" action="{!getWarrantyHistoryDetailData}" rerender="WarrantyDetailsPanel" status="status" >
+                            <apex:Param name="modulo" value="{!w.modulo}" assignTo="{!modulo}" />
+                            <apex:Param name="numInt" value="{!w.numInt}" assignTo="{!numInt}" />
+                            <apex:Param name="histoBim" value="{!w.histoBim}" assignTo="{!histoBim}" />
+                            <apex:Param name="rc" value="{!w.rc}" assignTo="{!rc}" />
+                        </apex:actionSupport>
+                    </apex:column>
+                    <apex:column width="150px" onmousemove="this.parentNode.style.backgroundColor='lightgrey'" onmouseout="this.parentNode.style.backgroundColor =''" >
+                        <apex:facet name="header">{!$Label.VFP05_Symptom}</apex:facet>
+                        <apex:outputText value="{!w.librc}" />
+                        <apex:actionSupport event="onclick" action="{!getWarrantyHistoryDetailData}" rerender="WarrantyDetailsPanel" status="status" >
+                            <apex:Param name="modulo" value="{!w.modulo}" assignTo="{!modulo}" />
+                            <apex:Param name="numInt" value="{!w.numInt}" assignTo="{!numInt}" />
+                            <apex:Param name="histoBim" value="{!w.histoBim}" assignTo="{!histoBim}" />
+                            <apex:Param name="rc" value="{!w.rc}" assignTo="{!rc}" />
+                        </apex:actionSupport>
+                    </apex:column>
+                    <apex:column width="150px" onmousemove="this.parentNode.style.backgroundColor='lightgrey'" onmouseout="this.parentNode.style.backgroundColor =''" >
+                        <apex:facet name="header">{!$Label.VFP05_Operation_description}</apex:facet>
+                        <apex:outputText value="{!w.libint}" />
+                        <apex:actionSupport event="onclick" action="{!getWarrantyHistoryDetailData}" rerender="WarrantyDetailsPanel" status="status" >
+                            <apex:Param name="modulo" value="{!w.modulo}" assignTo="{!modulo}" />
+                            <apex:Param name="numInt" value="{!w.numInt}" assignTo="{!numInt}" />
+                            <apex:Param name="histoBim" value="{!w.histoBim}" assignTo="{!histoBim}" />
+                            <apex:Param name="rc" value="{!w.rc}" assignTo="{!rc}" />
+                        </apex:actionSupport>
+                    </apex:column>
+                    <apex:column width="100px" onmousemove="this.parentNode.style.backgroundColor='lightgrey'" onmouseout="this.parentNode.style.backgroundColor =''" >
+                        <apex:facet name="header">{!$Label.VFP05_OTS_No}</apex:facet>
+                        <apex:outputText value="{!w.numOts}" />
+                        <apex:actionSupport event="onclick" action="{!getWarrantyHistoryDetailData}" rerender="WarrantyDetailsPanel" status="status" >
+                            <apex:Param name="modulo" value="{!w.modulo}" assignTo="{!modulo}" />
+                            <apex:Param name="numInt" value="{!w.numInt}" assignTo="{!numInt}" />
+                            <apex:Param name="histoBim" value="{!w.histoBim}" assignTo="{!histoBim}" />
+                            <apex:Param name="rc" value="{!w.rc}" assignTo="{!rc}" />
+                        </apex:actionSupport>
+                    </apex:column>
+                    
+                </apex:dataTable>
+            </apex:pageblocksection>
+            <apex:actionStatus startText="{!$Label.MashupGettingDetails}" id="status" />
+            <apex:outputPanel id="WarrantyDetailsPanel" > 
+                <apex:pageblocksection title="{!$Label.WarrantyHistoryDetails}"  rendered="{!NOT(ISNULL(whd))}">                     
+                        <apex:dataTable value="{!whd.PandO}" var="po" width="800">
+                            <apex:column value="{!po.Code}" headerValue="{!$Label.WarrantyDetailCode}"  width="150px" />
+                            <apex:column value="{!po.Temps}" headerValue="{!$Label.WarrantyDetailTime}" width="400px" />
+                            <apex:column value="{!po.Quantite}" headerValue="{!$Label.WarrantyDetailAmount}" width="150px" />
+                            <apex:column value="{!po.Libelles}" headerValue="{!$Label.WarrantyDetailLabels}" width="400px" />
+                        </apex:dataTable>                         
+                </apex:pageblocksection>
+            </apex:outputPanel>
+        </apex:pageblock>
+    </apex:outputpanel>  
+
+    <apex:outputpanel id="idOTSPanel" rendered="{!IF(showDetail = 5 || showDetail=99,true, false)}"> 
+            <apex:pageblock > 
+            <apex:pagemessages ></apex:pagemessages>
+            <apex:pageblocksection >
+                <apex:dataTable value="{!otsPropList}" var="o" width="800">
+                    <apex:column value="{!o.OTSType}" headerValue="{!$Label.VFP05_Type}" width="100px" />
+                    <apex:column value="{!o.OTSNo}" headerValue="{!$Label.VFP05_Number}" width="100px" />
+                    <apex:column value="{!o.OTSTechnicalNoteNo}" headerValue="{!$Label.VFP05_Technical_Note_No}" width="100px" />
+                    <apex:column value="{!o.OTSDescription}" headerValue="{!$Label.VFP05_Description}" width="400px" />
+                </apex:dataTable>
+            </apex:pageblocksection>
+        </apex:pageblock>
+    </apex:outputpanel>  
+
+<br/> 
+<apex:actionStatus id="archivagestatus" startText="{!$Label.VFP05_Loading}"></apex:actionStatus>
+    
+    <apex:outputpanel id="idArchivesPanel"  rendered="{!IF(showDetail = 11 || showDetail=12 || showDetail=13 || showDetail=14 || showDetail=15, true, false)}"> 
+       
+        <apex:pageblock > 
+            <apex:pagemessages ></apex:pagemessages>
+            <apex:pageblocksection title="{!$Label.VFP05_TitleCase}"> 
+                <apex:dataTable value="{!ArchCasesList}" var="a" width="500">
+                    <apex:column width="100" >
+                        <apex:facet name="header">{!$Label.VFP05_CaseId}</apex:facet>
+                        <apex:commandLink value="{!a.IdCase}" action="{!getCaseDetails}" rerender=" idDetailsPanel,AttachmentStatus,idArchivesPanel,idAttachmentPanel" status="ArchivesCasedetails" >
+                            <apex:param name="IdCase" value="{!a.IdCase}" />
+                            <apex:param name="country" value="{!a.country}" />
+                        </apex:commandLink>
+                    </apex:column> 
+                    <apex:column width="100" >
+                        <apex:facet name="header">{!$Label.VFP05_RelatedAttachement}</apex:facet>
+                        <apex:commandLink value="{!$Label.VFP05_GetattachmentDetail}" action="{!getAttachements}" rerender="idDetailsPanel,AttachmentStatus,idArchivesPanel,idAttachmentPanel" status="CaseAttachmentStatus" >
+                            <apex:param name="IdCase" value="{!a.IdCase}" />
+                            <apex:param name="country" value="{!a.country}" />
+                        </apex:commandLink>
+                    </apex:column>    
+                </apex:dataTable>  
+            </apex:pageblocksection> 
+       
+         </apex:pageblock>
+         </apex:outputpanel>
+         <apex:actionStatus startText="{!$Label.VFP05_GettingCaseDetails}" id="ArchivesCasedetails" />   
+       
+         <apex:outputPanel id="idDetailsPanel"  >  
+         <apex:pageblock title="{!$Label.VFP05_CaseDetail}" rendered="{!IF(showDetail = 12|| showDetail=19, true, false)}"> 
+            <apex:pageblockSection columns="2" id="Output">
+            
+            <apex:pageBlockSectionItem >
+            <apex:outputLabel value="{!$Label.VFP05_CaseIdDetail}"></apex:outputLabel>
+            {!xmlData.IdCase}
+            </apex:pageBlockSectionItem>
+            <apex:pageBlockSectionItem >
+            <apex:outputLabel value="{!$Label.VFP05_StatusDetail}"></apex:outputLabel>
+            {!xmlData.Status}
+            </apex:pageBlockSectionItem>
+            <apex:pageBlockSectionItem >
+            <apex:outputLabel value="{!$Label.VFP05_CommentDetail}"></apex:outputLabel>
+{!xmlData.Comment}
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem >
+<apex:outputLabel value="{!$Label.VFP05_DescriptionDetail}"></apex:outputLabel>
+{!xmlData.Description}
+</apex:pageBlockSectionItem>
+<apex:pageBlockSectionItem >
+<apex:outputLabel value="{!$Label.VFP05_NegociationResultDetail}"></apex:outputLabel>
+{!xmlData.NegociationResult}
+</apex:pageBlockSectionItem>
+<apex:pageBlockSectionItem >
+<apex:outputLabel value="{!$Label.VFP05_CaseTypeDetail}"></apex:outputLabel>
+{!xmlData.Area}
+</apex:pageBlockSectionItem>
+
+ <apex:pageBlockSectionItem >
+<apex:outputLabel value="{!$Label.VFP05_CreatedDetail}"></apex:outputLabel>
+<apex:param value="{!xmlData.Created}" /> 
+
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem >
+<apex:outputLabel value="{!$Label.VFP05_QuoteTypeDetail}"></apex:outputLabel>
+{!xmlData.QuoteType}
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem >
+<apex:outputLabel value="{!$Label.VFP05_FromValueDetail}"></apex:outputLabel>
+  <apex:param value="{!xmlData.FromValue}"/>
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem >
+<apex:outputLabel value="{!$Label.VFP05_CreatedByNameDetail}"></apex:outputLabel>
+{!xmlData.CreatedByName}
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem >
+<apex:outputLabel value="{!$Label.VFP05_OwnerDetail}"></apex:outputLabel>
+{!xmlData.Owner}
+</apex:pageBlockSectionItem>
+
+ <apex:pageBlockSectionItem >
+<apex:outputLabel value="{!$Label.VFP05_SourceDetail}"></apex:outputLabel>
+{!xmlData.Source}
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem >
+<apex:outputLabel value="{!$Label.VFP05_ClosedDateDetail}"></apex:outputLabel>
+{!xmlData.ClosedDate}
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem >
+<apex:outputLabel value="{!$Label.VFP05_ClosedByDetail}"></apex:outputLabel>
+{!xmlData.ClosedBy}
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem >
+<apex:outputLabel value="{!$Label.VFP05_ResolutionDateDetail}"></apex:outputLabel>
+{!xmlData.ResolutionDate}
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem >
+<apex:outputLabel value="{!$Label.VFP05_ResolutionAuthorDetail}"></apex:outputLabel>
+{!xmlData.ResolutionAuthor}
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem >
+<apex:outputLabel value="{!$Label.VFP05_MileageDetail}"></apex:outputLabel>
+{!xmlData.Mileage}
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem >
+<apex:outputLabel value="{!$Label.VFP05_PreferedLanguage2Detail}"></apex:outputLabel>
+{!xmlData.PreferedLanguage2}
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem >
+<apex:outputLabel value="{!$Label.VFP05_SubArea2Detail}"></apex:outputLabel>
+{!xmlData.SubArea2}
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem >
+<apex:outputLabel value="{!$Label.VFP05_CustomerRefNumberDetail}"></apex:outputLabel>
+{!xmlData.CustomerRefNumber}
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem >
+<apex:outputLabel value="{!$Label.VFP05_RCDetailDetail}"></apex:outputLabel>
+{!xmlData.RCDetail}
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem >
+<apex:outputLabel value="{!$Label.VFP05_AccessPointDetail}"></apex:outputLabel>
+{!xmlData.AccessPoint}
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem >
+<apex:outputLabel value="{!$Label.VFP05_SeverityDetail}"></apex:outputLabel>
+{!xmlData.Severity}
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem >
+<apex:outputLabel value="{!$Label.VFP05_DecisionDetail}"></apex:outputLabel>
+{!xmlData.Decision}
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem >
+<apex:outputLabel value="{!$Label.VFP05_TestDataDetail}"></apex:outputLabel>
+{!xmlData.TestData}
+</apex:pageBlockSectionItem>
+
+</apex:pageblockSection>
+<h2>{!$Label.VFP05_ContactDetail}</h2>
+
+<apex:variable value="{!xmlData.ContactList[0]}" var="a" rendered="{!xmlData.ContactList.size > 0}"/>
+<apex:pageblocksection columns="2" >
+<apex:pageBlockSectionItem rendered="{!xmlData.ContactList.size > 0}">
+<apex:outputLabel value="{!$Label.VFP05_TitleSICDetail}"></apex:outputLabel>
+    {!a.TitleSIC}
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem rendered="{!xmlData.ContactList.size > 0}">
+<apex:outputLabel value="{!$Label.VFP05_LastNameDetail}"></apex:outputLabel>
+{!a.LastName}
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem rendered="{!xmlData.ContactList.size > 0}">
+<apex:outputLabel value="{!$Label.VFP05_FirstNameDetail}"></apex:outputLabel>
+{!a.FirstName}
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem rendered="{!xmlData.ContactList.size > 0}">
+<apex:outputLabel value="{!$Label.VFP05_NoClientDetail}"></apex:outputLabel>
+{!a.NoClient}
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem rendered="{!xmlData.ContactList.size > 0}">
+<apex:outputLabel value="{!$Label.VFP05_CustomerIdentificationTypeDetail}"></apex:outputLabel>
+{!a.CustomerIdentificationType}
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem rendered="{!xmlData.ContactList.size > 0}">
+<apex:outputLabel value="{!$Label.VFP05_CustomerIdentificationNr2Detail}"></apex:outputLabel>
+{!a.CustomerIdentificationNr2}
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem rendered="{!xmlData.ContactList.size > 0}">
+<apex:outputLabel value="{!$Label.VFP05_PreferedLanguage2Detail}"></apex:outputLabel>
+{!a.PreferedLanguage2}
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem rendered="{!xmlData.ContactList.size > 0}">
+<apex:outputLabel value="{!$Label.VFP05_PreferedMethodContactDetail}"></apex:outputLabel>
+{!a.PreferedMethodContact}
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem rendered="{!xmlData.ContactList.size > 0}">
+<apex:outputLabel value="{!$Label.VFP05_EmailAddressDetail}"></apex:outputLabel>
+{!a.EmailAddress}
+</apex:pageBlockSectionItem>
+
+</apex:pageBlockSection>
+
+
+<apex:pageBlockSection rendered="{!xmlData.ContactList.size > 0}">
+<apex:pageBlockTable value="{!a.PersonalAddressList}" var="pa" rendered="{!a.PersonalAddressList.size > 0}">
+<apex:column rendered="{!a.PersonalAddressList.size > 0}">
+<apex:facet name="header">{!$Label.VFP05_PersonalCompleteStreetAddressDetailPa}</apex:facet>
+{!pa.PersonalCompleteStreetAddress}
+</apex:column>
+
+<apex:column rendered="{!a.PersonalAddressList.size > 0}">
+<apex:facet name="header">{!$Label.VFP05_PersonalAdditionalStreetAddressDetailPa}</apex:facet>
+{!pa.PersonalAdditionalStreetAddress}
+</apex:column>
+
+<apex:column rendered="{!a.PersonalAddressList.size > 0}">
+<apex:facet name="header">{!$Label.VFP05_PersonalStreetNumberDetailPa}</apex:facet>
+{!pa.PersonalStreetNumber}
+</apex:column>
+
+<apex:column rendered="{!a.PersonalAddressList.size > 0}">
+<apex:facet name="header">{!$Label.VFP05_PersonalStreetTypeDetailPa}</apex:facet>
+{!pa.PersonalStreetType}
+</apex:column>
+
+<apex:column rendered="{!a.PersonalAddressList.size > 0}">
+<apex:facet name="header">{!$Label.VFP05_PersonalStreetNameDetailPa}</apex:facet>
+{!pa.PersonalStreetName}
+</apex:column>
+
+<apex:column rendered="{!a.PersonalAddressList.size > 0}">
+<apex:facet name="header">{!$Label.VFP05_PersonalCityDetailPa}</apex:facet>
+{!pa.PersonalCity}
+</apex:column>
+
+<apex:column rendered="{!a.PersonalAddressList.size > 0}">
+<apex:facet name="header">{!$Label.VFP05_PersonalMailBoxDetailPa}</apex:facet>
+{!pa.PersonalMailBox}
+</apex:column>
+
+<apex:column rendered="{!a.PersonalAddressList.size > 0}">
+<apex:facet name="header">{!$Label.VFP05_PersonalCountry2DetailPa}</apex:facet>
+{!pa.PersonalCountry2}
+</apex:column>
+
+</apex:pageBlockTable>
+</apex:pageblockSection>
+
+<apex:pageblockSection >
+ <apex:commandLink value="{!$Label.VFP05_MoreDetails}"  action="{!OpenXMLPage}" target="_blank"/>
+
+</apex:pageblockSection>
+
+ </apex:pageblock>
+ </apex:outputPanel>
+
+         <apex:actionStatus startText="{!$Label.VFP05_GettingXMLData}" id="idXMLPanelStatus" /> 
+         <apex:outputPanel id="idXMLPanel" > 
+    
+          <apex:pageblock rendered="{!IF(showDetail = 19, true, false)}"> 
+          <apex:commandLink value="{!$Label.VFP05_OpenAsaPDF}"  action="{!OpenXMLPage}" target="_blank"/>
+          </apex:pageblock>    
+ </apex:outputPanel>    
+                
+        <apex:actionStatus startText="{!$Label.VFP05_GettingAttachmentList}" id="CaseAttachmentStatus" />         
+         <apex:outputPanel id="idAttachmentPanel" > 
+          <apex:pageblock rendered="{!IF(showDetail = 13 || showDetail=14, true, false)}">    
+        
+            <apex:pageblocksection title="{!$Label.VFP05_AttachmentInformation}" >            
+                <apex:dataTable value="{!ArchAttachmentsList}" var="t" width="500">
+                    <apex:column width="150">
+                        <apex:facet name="header">{!$Label.VFP05_AttachmentName}</apex:facet>
+                         <apex:commandLink value="{!t.attachmentName}" action="{!getAttachementData}">
+                            <apex:param name="AttachmentName" value="{!t.attachmentName}" />
+                            <apex:param name="IdCase" value="{!t.IdCase}" />
+                            <apex:param name="country" value="{!t.country}" />
+                            <apex:param name="contentType" value="{!t.extension}" />
+                        </apex:commandLink>
+                    </apex:column>                                  
+                    <apex:column width="50">
+                        <apex:facet name="header">{!$Label.VFP05_Extension}</apex:facet>
+                        <apex:outputText value="{!t.extension}" />
+                    </apex:column>                  
+                    <apex:column width="75">
+                        <apex:facet name="header">{!$Label.VFP05_CreatedDate}</apex:facet>
+                        <apex:outputText value="{0,date,dd'/'MM'/'yyyy}">
+                            <apex:param value="{!t.createdDate}" /> 
+                        </apex:outputText>
+                    </apex:column>
+ 
+                </apex:dataTable>              
+            </apex:pageblocksection>
+         </apex:pageblock>
+         </apex:outputPanel>
+     
+           <br/> <apex:actionStatus startText="{!$Label.VFP05_OpeningAttachment}" id="OpeningAttachmentStatus" />           
+           <apex:outputPanel id="idAttachmentPanelFine">
+                 <apex:pageblock rendered="{!IF(showDetail = 14, true, false)}"> 
+                 <apex:pageblocksection title="{!$Label.VFP05_AttachmentData}">
+                  <a href="/servlet/servlet.FileDownload?file={!attachmentURL}" target="_blank">Open Attachment/Save Attachment</a>
+                 </apex:pageblocksection>
+                </apex:pageblock>
+            </apex:outputPanel>  
+            
+    </apex:form>            
+ </apex:page>

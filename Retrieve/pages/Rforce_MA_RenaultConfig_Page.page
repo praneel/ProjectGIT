@@ -1,0 +1,24 @@
+<apex:page showHeader="false" sidebar="false">
+
+<!--Deployment code-->
+
+<script type='text/javascript' src='https://c.la2w1cs.salesforceliveagent.com/content/g/js/32.0/deployment.js'></script>
+<script type='text/javascript'>
+liveagent.init('https://d.la2w1cs.salesforceliveagent.com/chat', '572m00000004COI', '00Dm00000002GB7');
+</script>
+
+<img id="liveagent_button_online_573m00000004CPL" style="display: none; border: 0px none; cursor: pointer" onclick="liveagent.startChat('573m00000004CPL')" src="https://hquat-contactrenaultgroup.cs20.force.com/liveagent/resource/1421414125000/RForce_MA_REN_OnlineButton_STR" /><img id="liveagent_button_offline_573m00000004CPL" style="display: none; border: 0px none; " src="https://hquat-contactrenaultgroup.cs20.force.com/liveagent/resource/1421414125000/RForce_MA_REN_OfflineButton_STR" />
+<script type="text/javascript">
+if (!window._laq) { window._laq = []; }
+window._laq.push(function(){liveagent.showWhenOnline('573m00000004CPL', document.getElementById('liveagent_button_online_573m00000004CPL'));
+liveagent.showWhenOffline('573m00000004CPL', document.getElementById('liveagent_button_offline_573m00000004CPL'));
+});
+
+
+function offlineopen() {
+window.open("https://hquat-contactrenaultgroup.cs20.force.com/liveagent/Rforce_MA_RenaultOffline_Page", "offlinepage","location=1,status=1,scrollbars=0, width=480,height=480");
+}
+
+</script>
+
+</apex:page>

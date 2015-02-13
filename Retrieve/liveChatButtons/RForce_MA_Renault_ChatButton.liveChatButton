@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LiveChatButton xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoGreeting>Bonjour, Bienvenue à Renault  Maroc je m&apos;appelle {!User_FirstName}, comment je peux vous aider ?</autoGreeting>
+    <chatPage>Rforce_MA_CustomRenaultChat_Page</chatPage>
+    <customAgentName>{!User_FirstName}</customAgentName>
+    <deployments/>
+    <enableQueue>true</enableQueue>
+    <isActive>true</isActive>
+    <label>RForce_MA_Renault_ChatButton</label>
+    <offlineImage>RForce_MA_REN_OfflineButton_STR</offlineImage>
+    <onlineImage>RForce_MA_REN_OnlineButton_STR</onlineImage>
+    <optionsCustomRoutingIsEnabled>false</optionsCustomRoutingIsEnabled>
+    <optionsHasInviteAfterAccept>false</optionsHasInviteAfterAccept>
+    <optionsHasInviteAfterReject>false</optionsHasInviteAfterReject>
+    <optionsHasRerouteDeclinedRequest>false</optionsHasRerouteDeclinedRequest>
+    <optionsIsAutoAccept>false</optionsIsAutoAccept>
+    <optionsIsInviteAutoRemove>false</optionsIsInviteAutoRemove>
+    <perAgentQueueLength>2</perAgentQueueLength>
+    <preChatFormPage>Rforce_MA_RenaultPrechat_Page</preChatFormPage>
+    <routingType>Choice</routingType>
+    <site>LiveAgent</site>
+    <skills>
+        <skill>RForce_MA_Renault_Skills_FO</skill>
+    </skills>
+    <type>Standard</type>
+    <windowLanguage>fr</windowLanguage>
+</LiveChatButton>

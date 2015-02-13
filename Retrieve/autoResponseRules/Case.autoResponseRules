@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>Renault AutoResponse Rule</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.CaseSubSource__c</field>
+                <operation>equals</operation>
+                <value>Webform</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>MidCE Case RecType</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.CountryCase__c</field>
+                <operation>equals</operation>
+                <value>Slovakia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>RENAULT SITE</value>
+            </criteriaItems>
+            <senderEmail>noreply.sk@renault.sk</senderEmail>
+            <senderName>Renault Slovakia</senderName>
+            <template>MidCE_Template/SK_Web_to_Case_email_response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.CaseSubSource__c</field>
+                <operation>equals</operation>
+                <value>Webform</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>MidCE Case RecType</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.CountryCase__c</field>
+                <operation>equals</operation>
+                <value>Slovakia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>DACIA SITE</value>
+            </criteriaItems>
+            <senderEmail>noreply.sk@renault.sk</senderEmail>
+            <senderName>Dacia Slovakia</senderName>
+            <template>MidCE_Template/SK_Web_to_Case_email_response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.CaseSubSource__c</field>
+                <operation>equals</operation>
+                <value>Webform</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>MidCE Case RecType</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.CountryCase__c</field>
+                <operation>equals</operation>
+                <value>Czech Republic</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>RENAULT SITE</value>
+            </criteriaItems>
+            <senderEmail>noreply.cz@renault.cz</senderEmail>
+            <senderName>Renault Czech Republic</senderName>
+            <template>MidCE_Template/CZ_Web_to_Case_email_response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.CaseSubSource__c</field>
+                <operation>equals</operation>
+                <value>Webform</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>MidCE Case RecType</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.CountryCase__c</field>
+                <operation>equals</operation>
+                <value>Czech Republic</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>DACIA SITE</value>
+            </criteriaItems>
+            <senderEmail>noreply.cz@renault.cz</senderEmail>
+            <senderName>Dacia Czech Republic</senderName>
+            <template>MidCE_Template/CZ_Web_to_Case_email_response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.CaseSubSource__c</field>
+                <operation>equals</operation>
+                <value>Webform</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>MidCE Case RecType</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.CountryCase__c</field>
+                <operation>equals</operation>
+                <value>Hungary</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>RENAULT SITE</value>
+            </criteriaItems>
+            <senderEmail>noreply.hu@renault.hu</senderEmail>
+            <senderName>Renault Hungary</senderName>
+            <template>MidCE_Template/HU_Web_to_Case_email_response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.CaseSubSource__c</field>
+                <operation>equals</operation>
+                <value>Webform</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>MidCE Case RecType</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.CountryCase__c</field>
+                <operation>equals</operation>
+                <value>Hungary</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>DACIA SITE</value>
+            </criteriaItems>
+            <senderEmail>noreply.hu@renault.hu</senderEmail>
+            <senderName>Dacia Hungary</senderName>
+            <template>MidCE_Template/HU_Web_to_Case_email_response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.CaseSubSource__c</field>
+                <operation>equals</operation>
+                <value>Webform</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PT Case RecType</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.CountryCase__c</field>
+                <operation>equals</operation>
+                <value>Portugal</value>
+            </criteriaItems>
+            <senderEmail>no-reply@renault.pt</senderEmail>
+            <senderName>Renault Portugal</senderName>
+            <template>Portugal_Template/PT_TE_04_Web_to_case_confirmation_to_customer</template>
+        </ruleEntry>
+        <ruleEntry>
+            <booleanFilter>(1 AND 2 AND 3 AND 4) OR 5 OR 6</booleanFilter>
+            <criteriaItems>
+                <field>Case.OwnerId</field>
+                <operation>equals</operation>
+                <value>ES BO – Email to Case Fleet</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.CountryCase__c</field>
+                <operation>equals</operation>
+                <value>Spain</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Complaint</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.OwnerId</field>
+                <operation>equals</operation>
+                <value>ES FO – Email to Case Dacia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.OwnerId</field>
+                <operation>equals</operation>
+                <value>ES FO – Email to Case Renault</value>
+            </criteriaItems>
+            <senderEmail>no-reply@renault.es</senderEmail>
+            <senderName>RENAULT</senderName>
+            <template>SPAIN_TEMPLATE/ES_TE_01_Customer_Complaints_Via_Mail</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>NR_Case_RecType</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.CaseSubSource__c</field>
+                <operation>equals</operation>
+                <value>Webform</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.CountryCase__c</field>
+                <operation>equals</operation>
+                <value>Sweden</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.CaseBrand__c</field>
+                <operation>equals</operation>
+                <value>Renault</value>
+            </criteriaItems>
+            <senderEmail>noreply.se@renault.com</senderEmail>
+            <senderName>Renault</senderName>
+            <template>Nordic_Template/SE_TE_02_Web_to_case_Information_Request_Confirmation_Renault</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>NR_Case_RecType</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.CaseSubSource__c</field>
+                <operation>equals</operation>
+                <value>Webform</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.CaseBrand__c</field>
+                <operation>equals</operation>
+                <value>Dacia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.CountryCase__c</field>
+                <operation>equals</operation>
+                <value>Sweden</value>
+            </criteriaItems>
+            <senderEmail>noreply.sweden@dacia.se</senderEmail>
+            <senderName>Dacia</senderName>
+            <template>Nordic_Template/SE_TE_01_Web_to_case_Information_Request_Confirmation_Dacia</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>NR_Case_RecType</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.CaseSubSource__c</field>
+                <operation>equals</operation>
+                <value>Webform</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.CaseBrand__c</field>
+                <operation>equals</operation>
+                <value>Renault</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.CountryCase__c</field>
+                <operation>equals</operation>
+                <value>Denmark</value>
+            </criteriaItems>
+            <senderEmail>noreply.dk@renault.com</senderEmail>
+            <senderName>Renault</senderName>
+            <template>Nordic_Template/DK_TE_02_Web_to_case_Information_Request_Confirmation_Renault</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>NR_Case_RecType</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.CaseBrand__c</field>
+                <operation>equals</operation>
+                <value>Dacia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.CaseSubSource__c</field>
+                <operation>equals</operation>
+                <value>Webform</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.CountryCase__c</field>
+                <operation>equals</operation>
+                <value>Denmark</value>
+            </criteriaItems>
+            <senderEmail>noreply.denmark@dacia.dk</senderEmail>
+            <senderName>Dacia</senderName>
+            <template>Nordic_Template/DK_TE_01_Web_to_case_Information_Request_Confirmation_Dacia</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.CaseSubSource__c</field>
+                <operation>equals</operation>
+                <value>Webform</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PL Case RecType</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>RENAULT SITE</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Title_Web__c</field>
+                <operation>equals</operation>
+                <value>Mr</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Information Request</value>
+            </criteriaItems>
+            <senderEmail>noreply@renault.pl</senderEmail>
+            <senderName>Renault Polska</senderName>
+            <template>Poland_Temaplate/PL_TE_03_Web_to_case_confirmation_Info_request_Renault_Male_Cust</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.CaseSubSource__c</field>
+                <operation>equals</operation>
+                <value>Webform</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PL Case RecType</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>RENAULT SITE</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Title_Web__c</field>
+                <operation>equals</operation>
+                <value>Mrs</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Information Request</value>
+            </criteriaItems>
+            <senderEmail>noreply@renault.pl</senderEmail>
+            <senderName>Renault Polska</senderName>
+            <template>Poland_Temaplate/PL_TE_03_Web_to_case_confirmation_Info_request_Renault_Female_Cust</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.CaseSubSource__c</field>
+                <operation>equals</operation>
+                <value>Webform</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PL Case RecType</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>RENAULT SITE</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Title_Web__c</field>
+                <operation>equals</operation>
+                <value>Mr</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Complaint</value>
+            </criteriaItems>
+            <senderEmail>noreply@renault.pl</senderEmail>
+            <senderName>Renault Polska</senderName>
+            <template>Poland_Temaplate/PL_TE_04_Web_to_case_confirmation_Complaint_Renault_Male_Cust</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.CaseSubSource__c</field>
+                <operation>equals</operation>
+                <value>Webform</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PL Case RecType</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>RENAULT SITE</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Title_Web__c</field>
+                <operation>equals</operation>
+                <value>Mrs</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Complaint</value>
+            </criteriaItems>
+            <senderEmail>noreply@renault.pl</senderEmail>
+            <senderName>Renault Polska</senderName>
+            <template>Poland_Temaplate/PL_TE_04_Web_to_case_confirmation_Complaint_Renault_Female_Cust</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.CaseSubSource__c</field>
+                <operation>equals</operation>
+                <value>Webform</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PL Case RecType</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>DACIA SITE</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Title_Web__c</field>
+                <operation>equals</operation>
+                <value>Mr</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Information Request</value>
+            </criteriaItems>
+            <senderEmail>noreply@dacia.pl</senderEmail>
+            <senderName>Dacia</senderName>
+            <template>Poland_Temaplate/PL_TE_05_Web_to_case_confirmation_Info_request_Dacia_Male_Cust</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.CaseSubSource__c</field>
+                <operation>equals</operation>
+                <value>Webform</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PL Case RecType</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>DACIA SITE</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Title_Web__c</field>
+                <operation>equals</operation>
+                <value>Mrs</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Information Request</value>
+            </criteriaItems>
+            <senderEmail>noreply@dacia.pl</senderEmail>
+            <senderName>Dacia</senderName>
+            <template>Poland_Temaplate/PL_TE_05_Web_to_case_confirmation_Info_request_Dacia_Female_Cust</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.CaseSubSource__c</field>
+                <operation>equals</operation>
+                <value>Webform</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PL Case RecType</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>DACIA SITE</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Title_Web__c</field>
+                <operation>equals</operation>
+                <value>Mr</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Complaint</value>
+            </criteriaItems>
+            <senderEmail>noreply@dacia.pl</senderEmail>
+            <senderName>Dacia</senderName>
+            <template>Poland_Temaplate/PL_TE_06_Web_to_case_confirmation_Complaint_Dacia_Male_Cust</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.CaseSubSource__c</field>
+                <operation>equals</operation>
+                <value>Webform</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PL Case RecType</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>DACIA SITE</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Title_Web__c</field>
+                <operation>equals</operation>
+                <value>Mrs</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Complaint</value>
+            </criteriaItems>
+            <senderEmail>noreply@dacia.pl</senderEmail>
+            <senderName>Dacia</senderName>
+            <template>Poland_Temaplate/PL_TE_06_Web_to_case_confirmation_Complaint_Dacia_Female_Cust</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.CountryCase__c</field>
+                <operation>equals</operation>
+                <value>France</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Subject</field>
+                <operation>contains</operation>
+                <value>Demande MyShop</value>
+            </criteriaItems>
+            <senderEmail>contact.src@renault.com</senderEmail>
+            <senderName>Renault France</senderName>
+            <template>France_Template/FR_FO_41_Webtocaseemailresponse</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>DZ Case RecType</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.CaseSubSource__c</field>
+                <operation>equals</operation>
+                <value>Webform</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>RENAULT SITE</value>
+            </criteriaItems>
+            <senderEmail>monica.lavandera@renault.com</senderEmail>
+            <senderName>Renault Algeria</senderName>
+            <template>Algeria_Template/DZ_TE_03_Web_to_case_Renault_confirmation_to_customer</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>DZ Case RecType</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.CaseSubSource__c</field>
+                <operation>equals</operation>
+                <value>Webform</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>DACIA SITE</value>
+            </criteriaItems>
+            <senderEmail>monica.lavandera@renault.com</senderEmail>
+            <senderName>Dacia Algeria</senderName>
+            <template>Algeria_Template/DZ_TE_04_Web_to_case_Dacia_confirmation_to_customer</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.CaseSubSource__c</field>
+                <operation>equals</operation>
+                <value>Webform</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>CH Case RecType</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Title_Web__c</field>
+                <operation>equals</operation>
+                <value>Mr</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Language_Web__c</field>
+                <operation>equals</operation>
+                <value>French</value>
+            </criteriaItems>
+            <senderEmail>monica.lavandera@renault.com</senderEmail>
+            <senderName>Noreply Renault Switzerland</senderName>
+            <template>Switzerland_Template/CH_TE_03_Web_to_case_confirmation_Info_Req_Male_FR</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.CaseSubSource__c</field>
+                <operation>equals</operation>
+                <value>Webform</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>CH Case RecType</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Title_Web__c</field>
+                <operation>equals</operation>
+                <value>Mrs</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Language_Web__c</field>
+                <operation>equals</operation>
+                <value>French</value>
+            </criteriaItems>
+            <senderEmail>monica.lavandera@renault.com</senderEmail>
+            <senderName>Noreply Renault Switzerland</senderName>
+            <template>Switzerland_Template/CH_TE_03_Web_to_case_confirmation_Info_Req_Female_FR</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.CaseSubSource__c</field>
+                <operation>equals</operation>
+                <value>Webform</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>CH Case RecType</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Language_Web__c</field>
+                <operation>equals</operation>
+                <value>German</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Title_Web__c</field>
+                <operation>equals</operation>
+                <value>Mr</value>
+            </criteriaItems>
+            <senderEmail>monica.lavandera@renault.com</senderEmail>
+            <senderName>Noreply Renault Switzerland</senderName>
+            <template>Switzerland_Template/CH_TE_04_Web_to_case_confirmation_Info_Req_Male_DE</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.CaseSubSource__c</field>
+                <operation>equals</operation>
+                <value>Webform</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Language_Web__c</field>
+                <operation>equals</operation>
+                <value>German</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Title_Web__c</field>
+                <operation>equals</operation>
+                <value>Mrs</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>CH Case RecType</value>
+            </criteriaItems>
+            <senderEmail>monica.lavandera@renault.com</senderEmail>
+            <senderName>Noreply Renault Switzerland</senderName>
+            <template>Switzerland_Template/CH_TE_04_Web_to_case_confirmation_Info_Req_Female_DE</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.CaseSubSource__c</field>
+                <operation>equals</operation>
+                <value>Webform</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Language_Web__c</field>
+                <operation>equals</operation>
+                <value>Italian</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Title_Web__c</field>
+                <operation>equals</operation>
+                <value>Mr</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>CH Case RecType</value>
+            </criteriaItems>
+            <senderEmail>monica.lavandera@renault.com</senderEmail>
+            <senderName>Noreply Renault Switzerland</senderName>
+            <template>Switzerland_Template/CH_TE_05_Web_to_case_confirmation_Info_Req_Male_IT</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.CaseSubSource__c</field>
+                <operation>equals</operation>
+                <value>Webform</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Language_Web__c</field>
+                <operation>equals</operation>
+                <value>Italian</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Title_Web__c</field>
+                <operation>equals</operation>
+                <value>Mrs</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>CH Case RecType</value>
+            </criteriaItems>
+            <senderEmail>monica.lavandera@renault.com</senderEmail>
+            <senderName>Noreply Renault Switzerland</senderName>
+            <template>Switzerland_Template/CH_TE_05_Web_to_case_confirmation_Info_Req_Female_IT</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>MA Case RecType</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.CaseSubSource__c</field>
+                <operation>equals</operation>
+                <value>Webform</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>RENAULT SITE</value>
+            </criteriaItems>
+            <senderEmail>monica.lavandera@renault.com</senderEmail>
+            <senderName>Renault Morocco</senderName>
+            <template>Morocco_Template/MA_TE_07_Web_to_case_Renault_confirmation_to_customer</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>MA Case RecType</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.CaseSubSource__c</field>
+                <operation>equals</operation>
+                <value>Webform</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>DACIA SITE</value>
+            </criteriaItems>
+            <senderEmail>monica.lavandera@renault.com</senderEmail>
+            <senderName>Dacia Morocco</senderName>
+            <template>Morocco_Template/MA_TE_08_Web_to_case_Dacia_confirmation_to_customer</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>UA Case RecType</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.CaseSubSource__c</field>
+                <operation>equals</operation>
+                <value>Webform</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Information Request</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Language_Web__c</field>
+                <operation>equals</operation>
+                <value>Russian</value>
+            </criteriaItems>
+            <senderEmail>monica.lavandera@renault.com</senderEmail>
+            <senderName>Non Reply Renault Україна</senderName>
+            <template>Ukraine_Template/UA_TE_03_Web_to_case_confirmation_Info_Req_RU</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>UA Case RecType</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.CaseSubSource__c</field>
+                <operation>equals</operation>
+                <value>Webform</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Information Request</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Language_Web__c</field>
+                <operation>equals</operation>
+                <value>Ukrainian</value>
+            </criteriaItems>
+            <senderEmail>monica.lavandera@renault.com</senderEmail>
+            <senderName>Non Reply Renault Україна</senderName>
+            <template>Ukraine_Template/UA_TE_03_Web_to_case_confirmation_Info_Req_UA</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>UA Case RecType</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.CaseSubSource__c</field>
+                <operation>equals</operation>
+                <value>Webform</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Complaint</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Language_Web__c</field>
+                <operation>equals</operation>
+                <value>Russian</value>
+            </criteriaItems>
+            <senderEmail>monica.lavandera@renault.com</senderEmail>
+            <senderName>Non Reply Renault Україна</senderName>
+            <template>Ukraine_Template/UA_TE_04_Web_to_case_confirmation_Comp_RU</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>UA Case RecType</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.CaseSubSource__c</field>
+                <operation>equals</operation>
+                <value>Webform</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Complaint</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Language_Web__c</field>
+                <operation>equals</operation>
+                <value>Ukrainian</value>
+            </criteriaItems>
+            <senderEmail>monica.lavandera@renault.com</senderEmail>
+            <senderName>Non Reply Renault Україна</senderName>
+            <template>Ukraine_Template/UA_TE_04_Web_to_case_confirmation_Comp_UA</template>
+        </ruleEntry>
+    </autoResponseRule>
+</AutoResponseRules>

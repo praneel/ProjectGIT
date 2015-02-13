@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LiveChatButton xmlns="http://soap.sforce.com/2006/04/metadata">
+    <animation>Appear</animation>
+    <autoGreeting>Bienvenue à Renault Maroc je m&apos;appelle {!User_FirstName}, comment je peux vous aider ?</autoGreeting>
+    <chatPage>Rforce_MA_CustomRenaultChat_Page</chatPage>
+    <customAgentName>{!User_FirstName}</customAgentName>
+    <deployments>
+        <deployment>Rforce_MA_Renault_NudgingDeployment</deployment>
+    </deployments>
+    <enableQueue>true</enableQueue>
+    <inviteEndPosition>Center</inviteEndPosition>
+    <inviteImage>Rforce_MA_REN_NudgingImage_STR</inviteImage>
+    <isActive>true</isActive>
+    <label>Rforce_MA_Renault_Nudging</label>
+    <optionsCustomRoutingIsEnabled>false</optionsCustomRoutingIsEnabled>
+    <optionsHasInviteAfterAccept>true</optionsHasInviteAfterAccept>
+    <optionsHasInviteAfterReject>true</optionsHasInviteAfterReject>
+    <optionsHasRerouteDeclinedRequest>false</optionsHasRerouteDeclinedRequest>
+    <optionsIsAutoAccept>false</optionsIsAutoAccept>
+    <optionsIsInviteAutoRemove>false</optionsIsInviteAutoRemove>
+    <perAgentQueueLength>2</perAgentQueueLength>
+    <preChatFormPage>Rforce_MA_RenaultPrechat_Page</preChatFormPage>
+    <routingType>Choice</routingType>
+    <site>LiveAgent</site>
+    <skills>
+        <skill>RForce_MA_Renault_Skills_FO</skill>
+    </skills>
+    <type>Invite</type>
+</LiveChatButton>

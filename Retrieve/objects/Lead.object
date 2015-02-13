@@ -1,0 +1,4728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Brand_Of_Interest__c</fullName>
+        <externalId>false</externalId>
+        <label>Brand Of Interest</label>
+        <picklist>
+            <picklistValues>
+                <fullName>ALEKO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ALFA ROMEO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ALPINA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ARO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ASTON MARTIN</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AUDI</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AUSTIN</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AUTOBIANCHI</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AUVERLAND</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>BEDFORD</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>BERTONE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>BMW</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>BUICK</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CADILLAC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CHEVROLET</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CHRYSLER</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CITROEN</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CORVETTE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Dacia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DAEWOO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DAF</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DAIHATSU</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DALLAS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DANGEL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DE LA CHAPELLE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DODGE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DONKERVOORT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>FERRARI</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>FIAT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>FORD</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>FSO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>GME</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HONDA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HUMMER</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HYUNDAI</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>INNOCENTI</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ISUZU</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>IVECO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>JAGUAR</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>JEEP</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>KIA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LADA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LAMBORGHINI</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LANCIA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LAND-ROVER</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LDV</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LEXUS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LIGIER</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LOTUS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MAHINDRA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MARUTI</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MASERATI</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MAYBACH</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MAZDA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MEGA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MERCEDES</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MG</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MINI</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MITSUBISHI</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MORGAN</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NISSAN</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>OPEL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PEUGEOT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PGO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PIAGGIO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>POLSKI</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>POLSKI/FSO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PONCIN</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PONTIAC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PORSCHE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PROTON</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Renault</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Renault &amp; Dacia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>RENAULT TRUCKS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>RENAULT V.I</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ROLLS-ROYCE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ROVER</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SAAB</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SANTANA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SEAT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SKODA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SMART</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SOVAMAG</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SSANGYONG</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SUBARU</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SUZUKI</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TALBOT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TATA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TAVRIA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TEILHOL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TOYOTA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TVR</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>UMM</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>VENTURI</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>VOLKSWAGEN</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>VOLVO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>YUGO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ZASTAVA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>true</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Country__c</fullName>
+        <externalId>false</externalId>
+        <label>Country</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Algeria</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Argentina</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Austria</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Belgium</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Brazil</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>China</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Colombia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Croatia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Czech Republic</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DEMO Ctry</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Denmark</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Estonia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>France</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Germany</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Hungary</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>India</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ireland</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Italy</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Latvia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Lithuania</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mexico</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Morocco</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Netherlands</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Nordic</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Poland</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Portugal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Romania</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Russia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Serbia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Slovakia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Slovenia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>South Africa</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Spain</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sweden</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Switzerland</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Turkey</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>UK</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ukraine</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>United States</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>true</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>IntentToPurchaseNewVehicle__c</fullName>
+        <description>Intention to purchase new vehicle.</description>
+        <externalId>false</externalId>
+        <label>Intent to Purchase New Vehicle?</label>
+        <picklist>
+            <picklistValues>
+                <fullName>No Intention</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Within next 6 months</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Within next 1 year</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Within next 2 years</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Within next 3 years</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Within next 4 years</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Within next 5 years</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>&lt;1 Month</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2 Months</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>3 Months</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>4 Months</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>5 Months</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>6 - 12 Months</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>&gt; 12 Months</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Y</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>N</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>SecondVehicleOfInterest__c</fullName>
+        <description>Customer second vehicle of interest.</description>
+        <externalId>false</externalId>
+        <label>Second Vehicle of Interest</label>
+        <picklist>
+            <picklistValues>
+                <fullName>370Z</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>370Z ROADSTER</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ACCESSOIRES</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ALPINE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ASSURANCE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AUTRE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AVANTIME</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CABSTAR</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CAPTUR</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CLIO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CLIO 4</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CLIO 4 Grandtour</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Clio 4 Initiale Paris</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CLIO 4 RS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CLIO 4 SPORT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CLIO COLLECTION EXPRESS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CLIO GRANDTOUR</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Clio Hatch</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CLIO RS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Clio Sedan</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CLIO SPORT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CLIO VAN</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CREDIT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DACIA 1300</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DACIA 1310</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DACIA 1420</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DACIA DOUBLE CAB</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DACIA PICK-UP</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DACIA SPORT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DER MASTER PKW</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DEZIR</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DEZIR ZE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DOKKER</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DOKKER AUTOCARRO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DOKKER LKW</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DOKKER PKW</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DOKKER VAN</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Duster</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DUSTER (boite automatique)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DUSTER (GPL)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DUSTER AUTOCARRO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>EQUIPEMENT OPTIONNEL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ESPACE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ESPACE IV</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>FLUENCE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Fluence Sedan</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>FLUENCE SPORT WAY</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>FLUENCE ZE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>FRIGO ARAÇLAR</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>GARANTIE+</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>JUKE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Kangoo</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>KANGOO AUTOCARRO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>KANGOO BeBop</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Kangoo Express</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>KANGOO LKW</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>KANGOO PHASE 2</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>KANGOO PKW</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>KANGOO ZE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>KOLEOS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>KWID</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LAGUNA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LAGUNA 3</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LAGUNA 3 BERLINE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LAGUNA 3 COUPE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LAGUNA 3 ESTATE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LAGUNA 3 Grandtour</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LAGUNA COUPE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LAGUNA GRANDTOUR</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LAGUNA II</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LAGUNA III</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LAGUNA LIMOUSINE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LAGUNA SPORTOUR</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LATITUDE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LEASING</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LODGY</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Logan</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LOGAN (boite automatique)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LOGAN  (GPL)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LOGAN BLACK LINE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LOGAN GPL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LOGAN MCV</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LOGAN MCV (boite automatique)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LOGAN MCV  (GPL)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LOGAN PICK-UP</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LOGAN SILVER LINE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LOGAN VAN</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MASTER</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Master Chassi Cab</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Master Furgao</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Master Minibus</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MASTER TRASPORTO PERSONE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MEGANE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MEGANE 2</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MEGANE 2 SPORT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MEGANE 3</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MEGANE 3 COUPE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MEGANE 3 GRANDTOUR</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MEGANE 3 RS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MEGANE 3 SPORT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Megane Grand Tour</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MEGANE GT&amp;GT LINE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MEGANE RS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MEGANE SPORT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MICRA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MODUS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MURANO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NAVARA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NEUER CLIO 4 GT 120 EDC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NEUER CLIO GRANDTOUR</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NEUER CLIO GRANDTOUR GT 120 EDC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NEUER CLIO GT 120 EDC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NEUER KANGOO EXPRESS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NEUER KANGOO Z.E</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NEUER KOLEOS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NEUES MEGANE COUPE CABRIOLET</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NEW LOGAN</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NEW TWINGO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NISSAN SUNNY</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NOTE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NUOVA SANDERO AUTOCARRO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NUOVA TWINGO VAN</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NUOVO KANGOO EXPRESS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PATHFINDER</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PIECES DE RECHANGE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PNEUS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PULSE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>QASHQAI</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SAFRANE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sandero</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SANDERO (boite automatique)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SANDERO  (GPL)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SANDERO ENERGY</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SANDERO STEPWAY</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SCALA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SCENIC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SCENIC 3</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SCENIC 3 GRAND</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SCENIC 3 STANDARD</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SCENIC 3 XMOD</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SCÉNIC AUTOCARRO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SCENIC RX4</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SCENIC XMOD CROSS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SOLENZA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SUPERNOVA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SYMBOL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Symbol Sedan</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>THALIA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TRAFIC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Trafic III</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TRAFIC LKW</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TRAFIC PKW</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TRAFIC TRASPORTO PERSONE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TRAFIC TRASPORTO PERSONE AUTOCARRO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TWINGO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TWINGO 2</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Twingo III</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TWIZY</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Twizy Cargo</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>VEL SATIS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>VH ELECTRIQUES</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>VH POUR PERSONNES HANDICAPEES</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>WIND</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>XMOD AUTOCARRO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>X-TRAIL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ZOE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>true</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Second_Brand_Of_Interest__c</fullName>
+        <externalId>false</externalId>
+        <label>Second Brand Of Interest</label>
+        <picklist>
+            <picklistValues>
+                <fullName>ALEKO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ALFA ROMEO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ALPINA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ARO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ASTON MARTIN</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AUDI</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AUSTIN</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AUTOBIANCHI</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AUVERLAND</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>BEDFORD</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>BERTONE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>BMW</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>BUICK</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CADILLAC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CHEVROLET</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CHRYSLER</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CITROEN</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CORVETTE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Dacia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DAEWOO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DAF</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DAIHATSU</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DALLAS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DANGEL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DE LA CHAPELLE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DODGE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DONKERVOORT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>FERRARI</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>FIAT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>FORD</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>FSO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>GME</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HONDA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HUMMER</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HYUNDAI</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>INNOCENTI</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ISUZU</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>IVECO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>JAGUAR</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>JEEP</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>KIA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LADA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LAMBORGHINI</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LANCIA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LAND-ROVER</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LDV</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LEXUS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LIGIER</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LOTUS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MAHINDRA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MARUTI</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MASERATI</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MAYBACH</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MAZDA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MEGA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MERCEDES</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MG</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MINI</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MITSUBISHI</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MORGAN</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NISSAN</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>OPEL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PEUGEOT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PGO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PIAGGIO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>POLSKI</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>POLSKI/FSO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PONCIN</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PONTIAC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PORSCHE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PROTON</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Renault</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Renault &amp; Dacia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>RENAULT TRUCKS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>RENAULT V.I</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ROLLS-ROYCE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ROVER</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SAAB</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SANTANA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SEAT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SKODA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SMART</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SOVAMAG</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SSANGYONG</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SUBARU</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SUZUKI</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TALBOT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TATA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TAVRIA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TEILHOL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TOYOTA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TVR</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>UMM</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>VENTURI</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>VOLKSWAGEN</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>VOLVO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>YUGO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ZASTAVA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>true</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>SubType_Of_Interest__c</fullName>
+        <externalId>false</externalId>
+        <label>SubType Of Interest</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Product Info Request</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TestDrive Request</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>After Sales Request</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Used Vehicle Request</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Brochure Request</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>New Vehicle Request</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>End Of Contract</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>New vehicle request (business)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>New vehicle request (retail)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Credit purchase or leasing</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Cash purchase</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>After sales</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Autodeclics</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Brochure</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Brochure RenaultTV</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Brochure ZE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Campaign</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Contact</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Contact Individual</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Contact Professional</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Contact Professional VN</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Service contract</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Listing Argus</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Request accessory</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Purchase request</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Purchase request ZE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Quote request</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Funding request</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Maintenance request</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Test request</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Test request with RDV</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Test request RenaultTV</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Test request ZE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>General request</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Request or Command MPR</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Online quote</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Online quote / myshop</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>E-Brochure</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>E-Brochure ZE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Business</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TEST_EMAILING</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Fleet management</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>FlyingBlue</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Accessory history</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Order history</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Maintenance request history</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Renting</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Long term rental</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mobile Phone</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Promotion offer APV</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PMR</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Tyres</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PREAC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Promotion</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Renault Sport</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Renaultshop</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>RenaultShop2</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Booking with quote</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Booking without quote</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Arvato reprocessing</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>RPI Financing</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Second Life for Your Automobile</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Online sales</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>VO KNOCKDOWN PRICES</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>VO PROMOTION</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Broken Glass</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>TypeOfInterest__c</fullName>
+        <description>Type of Interest.</description>
+        <externalId>false</externalId>
+        <label>Type of Interest</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Commercial Information - Enterprise Customer</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Commercial Information - Personal Customer</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Test Drive</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>VO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>VN</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>APVA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>APVM</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ENT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>GD</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>RRENT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>RSHOP</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>VN/VO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>APV</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>APV-A</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>APV-M</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>VehicleOfInterest__c</fullName>
+        <description>Vehicle of interest.</description>
+        <externalId>false</externalId>
+        <label>Vehicle of Interest</label>
+        <picklist>
+            <picklistValues>
+                <fullName>370Z</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>370Z ROADSTER</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ACCESSOIRES</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ALPINE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ASSURANCE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AUTRE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AVANTIME</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CABSTAR</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CAPTUR</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CLIO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CLIO 4</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CLIO 4 Grandtour</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Clio 4 Initiale Paris</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CLIO 4 RS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CLIO 4 SPORT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CLIO COLLECTION EXPRESS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CLIO GRANDTOUR</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CLIO SPORT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CLIO VAN</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CREDIT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DACIA 1300</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DACIA 1310</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DACIA 1420</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DACIA DOUBLE CAB</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DACIA PICK-UP</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DACIA SPORT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DER MASTER PKW</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DEZIR</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DEZIR ZE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DOKKER</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DOKKER AUTOCARRO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DOKKER LKW</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DOKKER PKW</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DOKKER VAN</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DUSTER</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DUSTER (boite automatique)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DUSTER (GPL)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DUSTER AUTOCARRO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>EQUIPEMENT OPTIONNEL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ESPACE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ESPACE IV</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>FLUENCE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>FLUENCE SPORT WAY</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>FLUENCE ZE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>FRIGO ARAÇLAR</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>GARANTIE+</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>JUKE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>KANGOO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>KANGOO AUTOCARRO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>KANGOO BeBop</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>KANGOO EXPRESS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>KANGOO LKW</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>KANGOO PHASE 2</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>KANGOO PKW</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>KANGOO ZE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>KOLEOS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>KWID</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LAGUNA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LAGUNA 3</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LAGUNA 3 BERLINE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LAGUNA 3 COUPE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LAGUNA 3 ESTATE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LAGUNA 3 Grandtour</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LAGUNA COUPE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LAGUNA GRANDTOUR</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LAGUNA II</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LAGUNA III</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LAGUNA LIMOUSINE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LAGUNA SPORTOUR</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LATITUDE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LEASING</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LODGY</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LOGAN</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LOGAN (boite automatique)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LOGAN  (GPL)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LOGAN BLACK LINE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LOGAN GPL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LOGAN MCV</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LOGAN MCV (boite automatique)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LOGAN MCV  (GPL)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LOGAN PICK-UP</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LOGAN SILVER LINE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LOGAN VAN</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MASTER</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MASTER TRASPORTO PERSONE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MEGANE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MEGANE 2</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MEGANE 2 SPORT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MEGANE 3</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MEGANE 3 COUPE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MEGANE 3 GRANDTOUR</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MEGANE 3 RS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MEGANE 3 SPORT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MEGANE GT&amp;GT LINE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MEGANE RS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MEGANE SPORT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MICRA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MODUS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MURANO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NAVARA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NEUER CLIO 4 GT 120 EDC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NEUER CLIO GRANDTOUR</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NEUER CLIO GRANDTOUR GT 120 EDC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NEUER CLIO GT 120 EDC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NEUER KANGOO EXPRESS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NEUER KANGOO Z.E</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NEUER KOLEOS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NEUES MEGANE COUPE CABRIOLET</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NEW LOGAN</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NEW TWINGO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NISSAN SUNNY</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NOTE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NUOVA SANDERO AUTOCARRO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NUOVA TWINGO VAN</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NUOVO KANGOO EXPRESS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PATHFINDER</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PIECES DE RECHANGE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PNEUS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PULSE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>QASHQAI</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SAFRANE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SANDERO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SANDERO (boite automatique)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SANDERO  (GPL)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SANDERO ENERGY</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SANDERO STEPWAY</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SCALA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SCENIC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SCENIC 3</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SCENIC 3 GRAND</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SCENIC 3 STANDARD</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SCENIC 3 XMOD</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SCENIC AUTOCARRO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SCENIC RX4</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SCENIC XMOD CROSS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SOLENZA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SUPERNOVA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SYMBOL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>THALIA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TRAFIC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Trafic III</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TRAFIC LKW</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TRAFIC PKW</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TRAFIC TRASPORTO PERSONE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TRAFIC TRASPORTO PERSONE AUTOCARRO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TWINGO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TWINGO 2</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Twingo III</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TWIZY</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Twizy Cargo</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>VEL SATIS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>VH ELECTRIQUES</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>VH POUR PERSONNES HANDICAPEES</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>WIND</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>XMOD AUTOCARRO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>X-TRAIL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ZOE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>true</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <listViews>
+        <fullName>MA_LEAD_Queue_Lead</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.UNREAD</columns>
+        <filterScope>Queue</filterScope>
+        <label>MA LEAD Queue</label>
+        <language>en_US</language>
+        <queue>MA_LEAD_Queue</queue>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Morocco</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>UA_LEAD_Queue_Lead</fullName>
+        <filterScope>Queue</filterScope>
+        <label>UA LEAD Queue</label>
+        <language>en_US</language>
+        <queue>UA_LEAD_Queue</queue>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Ukraine</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <recordTypes>
+        <fullName>MA_Lead_RecType</fullName>
+        <active>true</active>
+        <businessProcess>Core Lead Process</businessProcess>
+        <description>RForce Morocco Lead Record Type</description>
+        <label>MA Lead RecType</label>
+        <picklistValues>
+            <picklist>Brand_Of_Interest__c</picklist>
+            <values>
+                <fullName>Dacia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renault</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renault %26 Dacia</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Country__c</picklist>
+            <values>
+                <fullName>Morocco</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Industry</picklist>
+            <values>
+                <fullName>Agriculture Forestry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Building</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Distribution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Energy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fishing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hotels Restaurants</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT%2FAutomatisation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Media Entertainment Culture</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mining And Quarrying</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pharmacy Healthcare</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public Sector</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Real Estate Service Activity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Science</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Total Manufacturing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trade</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transport Communications</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>IntentToPurchaseNewVehicle__c</picklist>
+            <values>
+                <fullName>%3C1 Month</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%3E 12 Months</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 Months</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 Months</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4 Months</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5 Months</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6 - 12 Months</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>Campaign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Events</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INTERNET</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RCI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SRC</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Showroom</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Name</picklist>
+            <values>
+                <fullName>Architect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dr%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mr%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mrs%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ms%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prof%2E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Rating</picklist>
+            <values>
+                <fullName>Cold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warm</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SecondVehicleOfInterest__c</picklist>
+            <values>
+                <fullName>ALPINE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AUTRE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AVANTIME</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAPTUR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CLIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CLIO 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CLIO 4 SPORT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CLIO GRANDTOUR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CLIO SPORT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DEZIR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DEZIR ZE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DOKKER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DOKKER VAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duster</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ESPACE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ESPACE IV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FLUENCE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FLUENCE ZE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KANGOO ZE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KOLEOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kangoo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LAGUNA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LAGUNA 3 BERLINE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LAGUNA 3 COUPE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LAGUNA 3 ESTATE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LAGUNA II</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LATITUDE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LODGY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LOGAN MCV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LOGAN PICK-UP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LOGAN VAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Logan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MASTER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEGANE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEGANE 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEGANE 2 SPORT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEGANE 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEGANE 3 COUPE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEGANE 3 GRANDTOUR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEGANE 3 SPORT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEGANE SPORT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MODUS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAFRANE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SANDERO STEPWAY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SCENIC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SCENIC 3 GRAND</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SCENIC 3 STANDARD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SCENIC 3 XMOD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SYMBOL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sandero</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TRAFIC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TWINGO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TWIZY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VEL SATIS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WIND</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ZOE</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Second_Brand_Of_Interest__c</picklist>
+            <values>
+                <fullName>Dacia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renault</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renault %26 Dacia</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SubType_Of_Interest__c</picklist>
+            <values>
+                <fullName>After Sales Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Brochure Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>End Of Contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Vehicle Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Info Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TestDrive Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Used Vehicle Request</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>TypeOfInterest__c</picklist>
+            <values>
+                <fullName>APVA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>APVM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VO</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>VehicleOfInterest__c</picklist>
+            <values>
+                <fullName>ALPINE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AUTRE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AVANTIME</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAPTUR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CLIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CLIO 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CLIO 4 SPORT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CLIO GRANDTOUR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CLIO SPORT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DEZIR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DEZIR ZE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DOKKER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DOKKER VAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DUSTER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ESPACE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ESPACE IV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FLUENCE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FLUENCE ZE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KANGOO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KANGOO ZE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KOLEOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LAGUNA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LAGUNA 3 BERLINE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LAGUNA 3 COUPE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LAGUNA 3 ESTATE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LAGUNA II</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LATITUDE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LODGY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LOGAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LOGAN %28boite automatique%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LOGAN MCV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LOGAN PICK-UP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LOGAN VAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MASTER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEGANE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEGANE 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEGANE 2 SPORT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEGANE 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEGANE 3 COUPE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEGANE 3 GRANDTOUR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEGANE 3 SPORT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEGANE SPORT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MODUS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAFRANE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SANDERO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SANDERO STEPWAY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SCENIC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SCENIC 3 GRAND</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SCENIC 3 STANDARD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SCENIC 3 XMOD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SYMBOL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TRAFIC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TWINGO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TWIZY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VEL SATIS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WIND</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ZOE</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>UA_Lead_RecType</fullName>
+        <active>true</active>
+        <businessProcess>Core Lead Process</businessProcess>
+        <description>Ukraine lead process</description>
+        <label>UA Lead RecType</label>
+        <picklistValues>
+            <picklist>Brand_Of_Interest__c</picklist>
+            <values>
+                <fullName>Dacia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renault</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renault %26 Dacia</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Country__c</picklist>
+            <values>
+                <fullName>Ukraine</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Industry</picklist>
+            <values>
+                <fullName>Agriculture Forestry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Building</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Distribution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Energy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fishing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hotels Restaurants</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT%2FAutomatisation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Media Entertainment Culture</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mining And Quarrying</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pharmacy Healthcare</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public Sector</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Real Estate Service Activity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Science</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Total Manufacturing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trade</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transport Communications</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>IntentToPurchaseNewVehicle__c</picklist>
+            <values>
+                <fullName>%3C1 Month</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%3E 12 Months</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 Months</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 Months</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4 Months</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5 Months</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6 - 12 Months</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Intention</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>Campaign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Events</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INTERNET</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RCI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SRC</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Showroom</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Name</picklist>
+            <values>
+                <fullName>Architect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dr%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mr%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mrs%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ms%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prof%2E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Rating</picklist>
+            <values>
+                <fullName>Cold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warm</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SecondVehicleOfInterest__c</picklist>
+            <values>
+                <fullName>ACCESSOIRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ALPINE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ASSURANCE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AUTRE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AVANTIME</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAPTUR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CLIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CLIO 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CLIO 4 SPORT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CLIO GRANDTOUR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CLIO SPORT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CREDIT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DEZIR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DEZIR ZE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DOKKER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DOKKER VAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duster</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EQUIPEMENT OPTIONNEL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ESPACE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ESPACE IV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FLUENCE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FLUENCE ZE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GARANTIE%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KANGOO ZE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KOLEOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kangoo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kangoo Express</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LAGUNA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LAGUNA 3 BERLINE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LAGUNA 3 COUPE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LAGUNA 3 ESTATE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LAGUNA II</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LATITUDE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LEASING</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LODGY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LOGAN MCV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LOGAN PICK-UP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LOGAN VAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Logan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MASTER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEGANE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEGANE 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEGANE 2 SPORT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEGANE 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEGANE 3 COUPE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEGANE 3 GRANDTOUR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEGANE 3 SPORT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEGANE SPORT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MODUS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PIECES DE RECHANGE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PNEUS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAFRANE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SANDERO STEPWAY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SCENIC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SCENIC 3 GRAND</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SCENIC 3 STANDARD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SCENIC 3 XMOD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SYMBOL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sandero</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TRAFIC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TWINGO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TWIZY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VEL SATIS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VH ELECTRIQUES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VH POUR PERSONNES HANDICAPEES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WIND</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ZOE</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Second_Brand_Of_Interest__c</picklist>
+            <values>
+                <fullName>Dacia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renault</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renault %26 Dacia</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SubType_Of_Interest__c</picklist>
+            <values>
+                <fullName>After Sales Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Brochure Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>End Of Contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Vehicle Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Info Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TestDrive Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Used Vehicle Request</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>TypeOfInterest__c</picklist>
+            <values>
+                <fullName>APVA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>APVM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VO</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>VehicleOfInterest__c</picklist>
+            <values>
+                <fullName>ACCESSOIRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ALPINE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ASSURANCE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AUTRE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AVANTIME</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAPTUR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CLIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CLIO 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CLIO 4 SPORT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CLIO GRANDTOUR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CLIO SPORT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CREDIT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DEZIR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DEZIR ZE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DOKKER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DOKKER VAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DUSTER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DUSTER %28GPL%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DUSTER %28boite automatique%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EQUIPEMENT OPTIONNEL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ESPACE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ESPACE IV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FLUENCE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FLUENCE SPORT WAY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FLUENCE ZE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GARANTIE%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KANGOO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KANGOO EXPRESS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KANGOO ZE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KOLEOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LAGUNA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LAGUNA 3 BERLINE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LAGUNA 3 COUPE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LAGUNA 3 ESTATE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LAGUNA II</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LAGUNA III</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LATITUDE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LEASING</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LODGY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LOGAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LOGAN  %28GPL%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LOGAN %28boite automatique%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LOGAN BLACK LINE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LOGAN MCV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LOGAN MCV  %28GPL%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LOGAN MCV %28boite automatique%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LOGAN PICK-UP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LOGAN SILVER LINE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LOGAN VAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MASTER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEGANE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEGANE 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEGANE 2 SPORT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEGANE 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEGANE 3 COUPE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEGANE 3 GRANDTOUR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEGANE 3 SPORT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEGANE SPORT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MODUS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PIECES DE RECHANGE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PNEUS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAFRANE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SANDERO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SANDERO  %28GPL%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SANDERO %28boite automatique%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SANDERO ENERGY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SANDERO STEPWAY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SCENIC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SCENIC 3 GRAND</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SCENIC 3 STANDARD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SCENIC 3 XMOD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SYMBOL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TRAFIC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TWINGO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TWIZY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VEL SATIS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VH ELECTRIQUES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VH POUR PERSONNES HANDICAPEES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WIND</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ZOE</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <webLinks>
+        <fullName>Convert_To_Opportunity</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Convert To Opportunity</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/26.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/soap/ajax/26.0/apex.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/support/console/26.0/integration.js&quot;)} 
+
+var leadId=&apos;{!Lead.Id}&apos;; 
+var conLead=&apos;{!Lead.Converted__c}&apos;; 
+var typeOfInterest=&apos;{!Lead.TypeOfInterest__c}&apos;; 
+var SubtypeOfInterest=&apos;{!Lead.SubType_Of_Interest__c}&apos;; 
+var DealerofInterest=&apos;{!Lead.DealerOfInterest__c}&apos;; 
+//var LeadRecType=&apos;{!Lead.RecordTypeId}&apos;; 
+var intend=&apos;{!Lead.IntentToPurchaseNewVehicle__c}&apos;; 
+var country=&apos;{!Lead.Country__c}&apos;; 
+
+if(conLead==&apos;1&apos;){ 
+//alert(&apos;This Lead had been converted To Opportunity already.&apos;); 
+alert(&apos;{!$Label.LeadConvesionError1}&apos;); 
+} 
+else 
+{ 
+if(country == &apos;Czech Republic&apos; || country ==&apos;Hungary&apos; || country == &apos;Slovakia&apos;||country ==&apos;Turkey&apos;) 
+{ 
+if(typeOfInterest==null || typeOfInterest==&apos;&apos; || SubtypeOfInterest==null || SubtypeOfInterest==&apos;&apos; || DealerofInterest== null || DealerofInterest==&apos;&apos; || intend==&apos;6 - 12 Months&apos; || intend==&apos;&gt; 12 Months&apos;|| intend==&apos;4 Months&apos;|| intend==&apos;5 Months&apos; || intend==&apos;&apos;) 
+{ 
+bcsStatus=&apos;BCS&apos;; 
+alert(&apos;{!$Label.LeadConvesionError}&apos;); 
+var start = new Date().getTime(); 
+var cur = start 
+while(cur - start &lt; 3000) 
+{ 
+cur = new Date().getTime(); 
+} 
+} 
+else if( (typeOfInterest != null || typeOfInterest != &apos;&apos;) &amp;&amp; (SubtypeOfInterest != null || SubtypeOfInterest != &apos;&apos;) &amp;&amp; intend!=&apos;6 - 12 Months&apos; &amp;&amp; intend!=&apos;&gt; 12 Months&apos;&amp;&amp; intend!=&apos;4 Months&apos;&amp;&amp; intend!=&apos;5 Months&apos; &amp;&amp; intend!=&apos;&apos;) 
+{ 
+bcsStatus=&apos;LMT&apos;; 
+} 
+} 
+
+if(country==&apos;France&apos;) 
+{ 
+if(typeOfInterest==null || typeOfInterest==&apos;&apos; || SubtypeOfInterest==null || SubtypeOfInterest==&apos;&apos;|| SubtypeOfInterest==&apos;After Sales Request&apos; || DealerofInterest== null || DealerofInterest==&apos;&apos; || intend==&apos;6 - 12 Months&apos; || intend==&apos;&gt; 12 Months&apos;|| intend==&apos;4 Months&apos;|| intend==&apos;5 Months&apos; || intend==&apos;&apos;) 
+{ 
+bcsStatus=&apos;BCS&apos;; 
+alert(&apos;{!$Label.LeadConvesionError}&apos;); 
+var start = new Date().getTime(); 
+var cur = start 
+while(cur - start &lt; 3000) 
+{ 
+cur = new Date().getTime(); 
+} 
+} 
+else if( (typeOfInterest != null || typeOfInterest != &apos;&apos;) &amp;&amp; (SubtypeOfInterest != null || SubtypeOfInterest != &apos;&apos; || SubtypeOfInterest != &apos;After Sales Request&apos;) &amp;&amp; intend!=&apos;6 - 12 Months&apos; &amp;&amp; intend!=&apos;&gt; 12 Months&apos;&amp;&amp; intend!=&apos;4 Months&apos;&amp;&amp; intend!=&apos;5 Months&apos; &amp;&amp; intend!=&apos;&apos;) 
+{ 
+bcsStatus=&apos;LMT&apos;; 
+} 
+} 
+
+//Italy 
+if(country==&apos;Italy&apos;) 
+{ 
+if(typeOfInterest==null || typeOfInterest==&apos;&apos;|| typeOfInterest!=&apos;VN&apos; || SubtypeOfInterest==null || SubtypeOfInterest==&apos;&apos; || DealerofInterest== null || DealerofInterest==&apos;&apos; || intend==&apos;6 - 12 Months&apos; || intend==&apos;&gt; 12 Months&apos;|| intend==&apos;4 Months&apos;|| intend==&apos;5 Months&apos; || intend==&apos;&apos;) 
+{ 
+bcsStatus=&apos;BCS&apos;; 
+//alert(&apos;This Lead can not be converted since the criteria are not met.&apos;); 
+alert(&apos;{!$Label.LeadConvesionError}&apos;); 
+var start = new Date().getTime(); 
+var cur = start 
+while(cur - start &lt; 3000) 
+{ 
+cur = new Date().getTime(); 
+} 
+} 
+else if(typeOfInterest ==&apos;VN&apos; &amp;&amp; (SubtypeOfInterest != null || SubtypeOfInterest != &apos;&apos;) &amp;&amp; (intend!=&apos;6 - 12 Months&apos; &amp;&amp; intend!=&apos;&gt; 12 Months&apos;&amp;&amp; intend!=&apos;4 Months&apos;&amp;&amp; intend!=&apos;5 Months&apos; &amp;&amp; intend!=&apos;&apos;)) 
+{ 
+bcsStatus=&apos;LMT&apos;; 
+} 
+} 
+
+//Spain 
+if(country==&apos;Spain&apos;) 
+{ 
+if(typeOfInterest==null || typeOfInterest==&apos;&apos; || typeOfInterest != &apos;VN&apos; || SubtypeOfInterest==null || SubtypeOfInterest==&apos;&apos; || SubtypeOfInterest == &apos;Product Info Request&apos; || SubtypeOfInterest == &apos;After Sales Request&apos; || SubtypeOfInterest == &apos;Used Vehicle Request&apos; || SubtypeOfInterest == &apos;End Of Contract&apos; || DealerofInterest == null || DealerofInterest == &apos;&apos; || intend==&apos;6 - 12 Months&apos; || intend == &apos;&gt; 12 Months&apos; || intend== &apos;4 Months&apos; || intend== &apos;5 Months&apos; || intend== &apos;No Intention&apos; || intend==&apos;&apos;) 
+{ 
+bcsStatus=&apos;BCS&apos;; 
+alert(&apos;{!$Label.LeadConvesionError}&apos;); 
+var start = new Date().getTime(); 
+var cur = start 
+while(cur - start &lt; 3000) 
+{ 
+cur = new Date().getTime(); 
+} 
+} 
+else if (typeOfInterest == &apos;VN&apos; &amp;&amp; ( SubtypeOfInterest == &apos;TestDrive Request&apos; || SubtypeOfInterest ==&apos;Brochure Request&apos; || SubtypeOfInterest == &apos;New Vehicle Request&apos;) &amp;&amp; ( intend == &apos;&lt;1 Month&apos; || intend == &apos;2 Months&apos; || intend == &apos;3 Months&apos;)) 
+{ 
+bcsStatus=&apos;LMT&apos;; 
+} 
+} 
+
+
+
+
+//Portugal 
+if(country==&apos;Portugal&apos;) 
+{ 
+if(typeOfInterest==&apos;&apos; || typeOfInterest==null || typeOfInterest==&apos;Commercial Information - Enterprise Customer&apos; || typeOfInterest==&apos;Commercial Information - Personal Customer&apos; || typeOfInterest==&apos;Test Drive&apos; || SubtypeOfInterest==null || SubtypeOfInterest==&apos;&apos; || SubtypeOfInterest == &apos;Brochure Request&apos; || DealerofInterest == null || DealerofInterest == &apos;&apos; || intend== &apos;No Intention&apos; || intend==&apos;&apos;) 
+{ 
+bcsStatus=&apos;BCS&apos;; 
+alert(&apos;{!$Label.LeadConvesionError}&apos;); 
+var start = new Date().getTime(); 
+var cur = start 
+while(cur - start &lt; 3000) 
+{ 
+cur = new Date().getTime(); 
+} 
+} 
+else 
+{ 
+bcsStatus=&apos;LMT&apos;; 
+} 
+} 
+//Poland
+if(country == &apos;Poland&apos; || country ==&apos;Lithuania&apos; || country == &apos;Latvia&apos;||
+country ==&apos;Estonia&apos;) 
+{
+if(typeOfInterest==&apos;&apos; || typeOfInterest==null ||  SubtypeOfInterest==null || SubtypeOfInterest==&apos;&apos; || DealerofInterest == null || DealerofInterest == &apos;&apos; || intend == &apos;&apos; || intend == null ||  intend== &apos;No Intention&apos; )
+{
+bcsStatus=&apos;BCS&apos;;
+alert(&apos;{!$Label.LeadConvesionError}&apos;);
+var start = new Date().getTime();
+var cur = start
+while(cur - start &lt; 3000)
+{
+cur = new Date().getTime();
+}
+}
+else
+{
+bcsStatus=&apos;LMT&apos;;
+}
+} 
+ 
+
+
+//Romania
+if(country==&apos;Romania&apos;) 
+{ 
+if(typeOfInterest==&apos;&apos; || typeOfInterest==null || typeOfInterest==&apos;Commercial Information - Enterprise Customer&apos; || typeOfInterest==&apos;Commercial Information - Personal Customer&apos; || typeOfInterest==&apos;Test Drive&apos; || SubtypeOfInterest==null || SubtypeOfInterest==&apos;&apos; || DealerofInterest == null || DealerofInterest == &apos;&apos; || intend== &apos;No Intention&apos; || intend==&apos;&apos;) 
+{ 
+bcsStatus=&apos;BCS&apos;; 
+alert(&apos;{!$Label.LeadConvesionError}&apos;); 
+var start = new Date().getTime(); 
+var cur = start 
+while(cur - start &lt; 3000) 
+{ 
+cur = new Date().getTime(); 
+} 
+} 
+else 
+{ 
+bcsStatus=&apos;LMT&apos;; 
+} 
+} 
+
+//Algeria
+if(country==&apos;Algeria&apos;) 
+{ 
+if(typeOfInterest==&apos;&apos; || typeOfInterest==&apos;VO&apos; || typeOfInterest==&apos;APVA&apos; || typeOfInterest==&apos;APVM&apos; || SubtypeOfInterest==&apos;&apos; || DealerofInterest == &apos;&apos; || intend== &apos;5 Months&apos; || intend== &apos;6 - 12 Months&apos; || intend== &apos;&gt; 12 Months&apos; || intend==&apos;&apos;) 
+{ 
+bcsStatus=&apos;BCS&apos;; 
+alert(&apos;{!$Label.LeadConvesionError}&apos;); 
+var start = new Date().getTime(); 
+var cur = start 
+while(cur - start &lt; 3000) 
+{ 
+cur = new Date().getTime(); 
+} 
+} 
+else 
+{ 
+bcsStatus=&apos;LMT&apos;; 
+} 
+} 
+
+
+
+//Nordic
+if(country==&apos;Sweden&apos;|| country==&apos;Denmark&apos;) 
+{ 
+if(typeOfInterest==&apos;&apos; || typeOfInterest==null || typeOfInterest==&apos;Commercial Information - Enterprise Customer&apos; || typeOfInterest==&apos;Commercial Information - Personal Customer&apos; || typeOfInterest==&apos;Test Drive&apos; || SubtypeOfInterest==null || SubtypeOfInterest==&apos;&apos; || SubtypeOfInterest == &apos;End Of Contract&apos;  || DealerofInterest == null || DealerofInterest == &apos;&apos; || intend==&apos;6 - 12 Months&apos; || intend==&apos;&gt; 12 Months&apos;|| intend== &apos;No Intention&apos; || intend==&apos;&apos;) 
+{ 
+bcsStatus=&apos;BCS&apos;; 
+alert(&apos;{!$Label.LeadConvesionError}&apos;); 
+var start = new Date().getTime(); 
+var cur = start 
+while(cur - start &lt; 3000) 
+{ 
+cur = new Date().getTime(); 
+} 
+} 
+else 
+{ 
+bcsStatus=&apos;LMT&apos;; 
+} 
+} 
+
+
+//Austria 
+if(country==&apos;Austria&apos;) 
+{ 
+if(typeOfInterest==&apos;&apos; || typeOfInterest==null  || typeOfInterest==&apos;VO&apos; || typeOfInterest==&apos;APVA&apos; || typeOfInterest==&apos;APVM&apos; || SubtypeOfInterest==null || SubtypeOfInterest==&apos;&apos; || DealerofInterest == null || DealerofInterest == &apos;&apos; || intend == &apos;&apos; || intend == null || intend == &apos;No Intention&apos; || intend == &apos;4 Months&apos; || intend == &apos;5 Months&apos; || intend == &apos;6 - 12 Months&apos; || intend == &apos;&gt; 12 Months&apos;) 
+{ 
+bcsStatus=&apos;BCS&apos;; 
+alert(&apos;{!$Label.LeadConvesionError}&apos;); 
+var start = new Date().getTime(); 
+var cur = start 
+while(cur - start &lt; 3000) 
+{ 
+cur = new Date().getTime(); 
+} 
+} 
+else 
+{ 
+bcsStatus=&apos;LMT&apos;; 
+} 
+} 
+
+
+//German
+if(country==&apos;Germany&apos;) 
+{ 
+if(typeOfInterest==&apos;&apos; || typeOfInterest==null ||typeOfInterest==&apos;VO&apos; || typeOfInterest==&apos;APVA&apos; || typeOfInterest==&apos;APVM&apos; || SubtypeOfInterest==null || SubtypeOfInterest==&apos;&apos; || DealerofInterest == null || DealerofInterest == &apos;&apos; || intend == &apos;&apos; || intend == null || intend == &apos;No Intention&apos; || intend == &apos;4 Months&apos; || intend == &apos;5 Months&apos; || intend == &apos;6 - 12 Months&apos; ||intend == &apos;&gt; 12 Months&apos;) 
+{ 
+bcsStatus=&apos;BCS&apos;; 
+alert(&apos;{!$Label.LeadConvesionError}&apos;); 
+var start = new Date().getTime(); 
+var cur = start 
+while(cur - start &lt; 3000) 
+{ 
+cur = new Date().getTime(); 
+} 
+} 
+else 
+{ 
+bcsStatus=&apos;LMT&apos;; 
+} 
+} 
+// Uk 
+if(country==&apos;UK&apos;|| country==&apos;Ireland&apos;) 
+{ 
+if(typeOfInterest==null || typeOfInterest==&apos;&apos; || SubtypeOfInterest==null || SubtypeOfInterest==&apos;&apos; || DealerofInterest == null || DealerofInterest == &apos;&apos; || intend==&apos;6 - 12 Months&apos; || intend == &apos;&gt; 12 Months&apos; || intend== &apos;No Intention&apos; || intend==&apos;&apos;) 
+{ 
+bcsStatus=&apos;BCS&apos;; 
+alert(&apos;{!$Label.LeadConvesionError}&apos;); 
+var start = new Date().getTime(); 
+var cur = start 
+while(cur - start &lt; 3000) 
+{ 
+cur = new Date().getTime(); 
+} 
+} 
+else 
+{ 
+bcsStatus=&apos;LMT&apos;; 
+} 
+} 
+
+// India
+if(country==&apos;India&apos;)
+{ 
+if(typeOfInterest== null || typeOfInterest== &apos;&apos; || typeOfInterest == &apos;VO&apos; || typeOfInterest == &apos;APVA&apos; || typeOfInterest == &apos;APVM&apos; || SubtypeOfInterest == null || SubtypeOfInterest == &apos;&apos; || DealerofInterest == null || DealerofInterest == &apos;&apos; || intend== null || intend == &apos;&apos; )
+{ 
+bcsStatus=&apos;BCS&apos;; 
+alert(&apos;{!$Label.LeadConvesionError}&apos;); 
+var start = new Date().getTime(); 
+var cur = start 
+while(cur - start &lt; 3000) 
+{ 
+cur = new Date().getTime(); 
+} 
+} 
+else 
+{ 
+bcsStatus=&apos;LMT&apos;; 
+} 
+} 
+//Morocco 
+if(country == &apos;Morocco&apos;) 
+{ 
+if(typeOfInterest==&apos;&apos; || typeOfInterest==null || SubtypeOfInterest==null || SubtypeOfInterest==&apos;&apos; || DealerofInterest == null || DealerofInterest == &apos;&apos; || intend == &apos;&apos; || intend == null || intend ==&apos;4 Months&apos; || intend ==&apos;5 Months&apos; || intend ==&apos;6 - 12 Months&apos; || intend ==&apos;&gt; 12 Months&apos; ) 
+{ 
+bcsStatus=&apos;BCS&apos;; 
+alert(&apos;{!$Label.LeadConvesionError}&apos;); 
+var start = new Date().getTime(); 
+var cur = start 
+while(cur - start &lt; 3000) 
+{ 
+cur = new Date().getTime(); 
+} 
+} 
+else 
+{ 
+bcsStatus=&apos;LMT&apos;; 
+} 
+} 
+
+//Ukraine 
+if(country == &apos;Ukraine&apos;) 
+{ 
+if(typeOfInterest==&apos;&apos; || typeOfInterest==null || SubtypeOfInterest==null || SubtypeOfInterest==&apos;&apos; || DealerofInterest == null || DealerofInterest == &apos;&apos; || intend == &apos;&apos; || intend == null ) 
+{ 
+bcsStatus=&apos;BCS&apos;; 
+alert(&apos;{!$Label.LeadConvesionError}&apos;); 
+var start = new Date().getTime(); 
+var cur = start 
+while(cur - start &lt; 3000) 
+{ 
+cur = new Date().getTime(); 
+} 
+} 
+else 
+{ 
+bcsStatus=&apos;LMT&apos;; 
+} 
+} 
+//Switzerland
+if(country == &apos;Switzerland&apos;) 
+{
+if(typeOfInterest==&apos;&apos; || typeOfInterest==null ||  SubtypeOfInterest==null || SubtypeOfInterest==&apos;&apos; || DealerofInterest == null || DealerofInterest == &apos;&apos; || intend == &apos;&apos; || intend == null ||  intend== &apos;No Intention&apos; ||  intend== &apos;&gt; 12 Months&apos; )
+{
+bcsStatus=&apos;BCS&apos;;
+alert(&apos;{!$Label.LeadConvesionError}&apos;);
+var start = new Date().getTime();
+var cur = start
+while(cur - start &lt; 3000)
+{
+cur = new Date().getTime();
+}
+}
+else
+{
+bcsStatus=&apos;LMT&apos;;
+}
+} 
+
+
+//redirection, and close current lead tab 
+if(bcsStatus==&apos;BCS&apos;||bcsStatus==&apos;LMT&apos;) 
+{ 
+if(!sforce.console.isInConsole()) 
+{ 
+window.parent.location.href=&quot;/apex/Rforce_LeadToOpportunity_Page?Id=&quot;+leadId+&quot;&amp;Criteria=&quot;+bcsStatus; 
+} 
+else 
+{ 
+sforce.console.getPrimaryTabIds(function (result) 
+{ 
+sforce.console.getEnclosingPrimaryTabId(function(primaryResult){ 
+sforce.console.openPrimaryTab(primaryResult.id, &apos;/apex/Rforce_LeadToOpportunity_Page?Id=&apos;+leadId+&apos;&amp;Criteria=&apos;+bcsStatus, true); 
+}); 
+}); 
+} 
+} 
+}</url>
+    </webLinks>
+</CustomObject>

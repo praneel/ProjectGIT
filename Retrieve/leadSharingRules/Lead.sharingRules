@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LeadSharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <criteriaBasedRules>
+        <fullName>MA_LEAD_SR01_Country_Sharing_Rules</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Morocco</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Country__c</field>
+            <operation>equals</operation>
+            <value>Morocco</value>
+        </criteriaItems>
+        <description>Morocco Sharing rules for Algeria leads</description>
+        <leadAccessLevel>Edit</leadAccessLevel>
+        <name>MA LEAD SR01 Country Sharing Rules</name>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>UA_LEAD_SR01_Country_Sharing_Rules</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Ukraine</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Country__c</field>
+            <operation>equals</operation>
+            <value>Ukraine</value>
+        </criteriaItems>
+        <description>Rforce, Ukraine : Lead SR01 Country Sharing Rules</description>
+        <leadAccessLevel>Edit</leadAccessLevel>
+        <name>UA LEAD SR01 Country Sharing Rules</name>
+    </criteriaBasedRules>
+</LeadSharingRules>

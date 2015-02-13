@@ -1,0 +1,11 @@
+Bonjour, la compensation financière a été validée par
+{!ApprovalRequest.Process_Approver} le {!ApprovalRequest.Response_Date} sur le dossier ci-dessous.
+
+Numéro de dossier : {!Case.CaseNumber}
+Date de création : {!Case.CreatedDate}
+Date de mise en validation : {!Case.LastModifiedDate}
+Nom / Société : {!Account.Mmerge_Company_Name__c}
+Nom du contact : {!Contact.FirstName} {!Contact.LastName}
+Montant validé : {!Case.GWGlobalAmount__c} 
+Description : {!Case.Description}
+Cliquer sur le lien suivant pour accéder directement au dossier {!Case.Link}

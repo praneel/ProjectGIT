@@ -1,0 +1,223 @@
+<apex:page showHeader="false" sidebar="false">
+<html lang="pt">
+<head>
+<link rel="stylesheet" href="{!URLFOR($Resource.web2caseResources,'web2case/css/validationEngine.jquery.css')}" type="text/css" media="screen" title="no title" charset="utf-8" />
+<!---MaskPlugin---->
+<apex:includeScript value="{!$Resource.MaskFuntion1}"/>
+<apex:includeScript value="{!$Resource.MaskFuntion}"/>
+<!---ValidationPlugin---->
+<script src="{!URLFOR($Resource.web2caseResources,'web2case/js/jquery_min.js')}" type="text/javascript" charset="UTF-8"></script>
+<script src="{!URLFOR($Resource.web2caseResources,'web2case/js/jquery.validationEngine-ua-ru.js')}" type="text/javascript"></script>
+<script src="{!URLFOR($Resource.web2caseResources,'web2case/js/jquery.validationEngine.js')}" type="text/javascript"></script>
+<script>    
+        
+              $(document).ready(function() {
+          
+            // SUCCESS AJAX CALL, replace "success: false," by:     success : function() { callSuccessFunction() }, 
+            jQuery("#formID").validationEngine({ 
+           });                                  
+         }); 
+         
+</script>
+<script>
+            function maskvalidation(){
+        var sr=navigator.appName;
+        <!-- if(sr!="Microsoft Internet Explorer")-->
+        $.noConflict();     
+        $(function() {
+        $("#CPF_Web_c").mask("999.999.999-99");             
+        }); 
+        $(function() {
+           <!-- $("#Phone").mask("(999)999-9999"); -->
+            $("#ContactMobile").mask("+380999999999"); 
+           <!-- $("#postal").mask("(999)9999999"); -->>
+                                  
+        });
+    }
+</script>
+<script>
+    function validationcomplete(){
+       var strg1=document.getElementById("Endereço").value;
+       var strg2=document.getElementById("Numero").value;
+       var strg3=document.getElementById("apartnum").value;
+       document.getElementById("Endereço").value=strg1+" "+strg2+" "+strg3;
+     alert("Благодарим за обращение и внимание к компании Renault!\n Ваше обращение было успешно передано в службу по работе с Клиентами и в ближайшее время с Вами свяжется наш специалист.");     
+     
+    }
+    
+</script>
+
+
+<c:Form_css />
+
+</head>
+<body>
+
+<div id="left"><br></br>
+<!--
+<img alt="" src="http://m2.br.f6m.fr/fale-conosco/att6e31e088a149405695943ab8e3fdec69/rsite_reclamacoes.jpg"></img>
+-->
+</div>
+<div id="right">
+    <br/>
+    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8"/>
+    <form id="formID"  action="https://test.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST"  target="_parent">
+       <input type='hidden' name="orgid" value="{!$Label.RForce_OrgId}"/>
+   <input type='hidden' name="retURL" value="http://www.renault.ua/ru/contact/"/> 
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+<!--  these lines if you wish to test in debug mode.                          -->
+<!-- <input type="hidden" name="debug" value=1>    -->
+<!--  <input type="hidden" name="debugEmail"                                  -->
+<!--  value="reena.jeyapal@rntbci.com">                                       -->
+<!--  ----------------------------------------------------------------------  -->
+        <div id="fields"> 
+        
+
+                                            
+           
+                                           <td>  
+                <label for="title"></label><br/>
+                    <select id="Title_Web__c" name="Title_Web__c">
+                    <option value="Mr">господин</option>
+                    <option value="Mrs">госпожа</option>                   
+                </select><br/>
+                                </td>
+                                 <hr color="white"></hr>
+                                   <td>            
+                        <label for="Firstname">Фамилия*</label><br/>
+                            <input  id="Fname" value="" class="validate[required,custom[Name],custom[Name3]] text-input" maxlength="80" style="width:400px;" name="FirstName_Web__c" size="20" type="text" />
+                    </td> <hr color="white"></hr>
+                                  <td>
+                        <label for="Lastname">Имя*</label><br/>
+                            <input  id="Lname" value="" class="validate[required,custom[Name1],custom[Name3]] text-input" maxlength="80" style="width:400px;" name="LastName_Web__c" size="20" type="text"/>
+                    </td>   <hr color="white"></hr> 
+                  
+                   
+ <td>            
+                        <label for="Secondname">Отчество*</label><br/>
+                            <input  id="Fname" value="" class="validate[required,custom[Name2],custom[Name3]] text-input" maxlength="80" style="width:400px;" name="Second_name_Web__c" size="20" type="text" />
+                    </td>          
+                <hr color="white"></hr>           
+                      <td>
+                <label for="email">E-Mail*</label><br/>
+                <input  id="email" value=""  class="validate[required,custom[email]] text-input" length="30" maxlength="80"  style="width:400px;"  name="email" size="20" type="text"  /><hr color="white"></hr>
+            </td>                
+            <td>
+               <label for="phone">Мобильный телефон*</label><br/>
+                <input  id="ContactMobile" value=""  class="validate[required,custom[telephone],custom[noSpecialCaracters],custom[telephone1]] text-input" style="width:400px;" maxlength="16" name="Cell_Phone_Web__c" onMouseOver="maskvalidation();" size="20" type="text"/><br/>
+        <hr color="white"></hr>
+        </td>
+ <td>        
+  
+    <label for="zip">Индекс</label><br></br>
+    <input  id="postal"   maxlength="9"  name="Postal_Code_Web__c" size="9"  style="width:400px;" type="text" /><br></br><hr color="white"></hr>
+
+                </td>
+            
+      <input  type="hidden" id="subject" maxlength="80" name="subject" size="40" value="жалоба"/>
+            
+                <input type="hidden" name="priority" value="Normal"/>   
+                 <input type="hidden" id="type" name="type" value="Complaint"/>                             
+               
+                <input type="hidden" name="status" value="New"/>  
+                 <input type="hidden" name="origin" value="Renault Site"/>
+                 <input type="hidden" name="CaseBrand__c" value="Renault"/>
+                <input type="hidden" name="CaseSubSource__c" value="Webform"/>     
+                <input type="hidden" id="From__c" name="From__c" value="Customer"/>
+                <input type="hidden"  id="external" name="external" value="1" />
+                <input type="hidden" id="recordType" name="recordType" value="{!$Label.RForce_UA_CAS_RecordType}"/>
+                <input type="hidden" id="CountryCase__c" name="couNTryCase__c" title="Country Case" value="Ukraine" />
+                 <input type="hidden" id="Language_Web__c" name="Language_Web__c" value="Russian"/>
+                 <input type="hidden" name="CurrencyIsoCode" value="RUB"/>
+              
+
+              
+
+<td>
+                
+    <label for=" ">Область</label><br/>
+                 <input  id="state" value=""  minlength="2" maxlength="80" size="20" name="State_Web__c" style="width:400px;" type="text" /> <hr color="white"></hr>
+                </td> 
+
+<td>
+    <label for=" city">Населенный пункт*</label><br/>
+                <input  id="Cidade" value=""  class="validate[required] text-input" minlength="2"  style="width:400px;" maxlength="80"   name="City_Web__c" size="20" type="text" /><br/><hr color="white"></hr>
+                  </td>
+<td>
+                
+    <label for=" ">Улица</label><br/>
+                 <input  id="Endereço" value=""  minlength="2" maxlength="80" size="20" name="Address_Web__c" style="width:400px;" type="text" /> <hr color="white"></hr>
+                </td> 
+
+               <td>  
+   <label for="addnumber">Номер</label><br/>
+                                <input  id="Numero" value=""  maxlength="10" name="" size="20" style="width:400px;"  type="text" /> <hr color="white"></hr>
+
+          </td>
+       
+          <td>
+
+   
+   <label for="aparmentt">Номер дома</label><br/>
+                                <input  id="apartnum" value=""  maxlength="10" name="" size="20" style="width:400px;"  type="text" /> <hr color="white"></hr>
+</td>
+
+
+                <td>
+                   <label>VIN*</label><br/>
+                            <input  id="VIN_Web__c"   maxlength="17" class="validate[required,custom[VINnumberRenault],custom[VINnumberRenault1],custom[VINnumberRenault2]]" name="VIN__c" size="20" type="text" style="width:400px;"/><br/><hr color="white"></hr>
+                   </td>
+                   <td>
+
+           <label>Государственный регистрационный номер*</label><br/>
+                            <input  id="License_Number_web__c"   maxlength="17" name="License_Number_Web__c" size="20" class="validate[required] text-input" style="width:400px;" /><br/><hr color="white"></hr> 
+</td>
+<td>
+   <label>Пробег*</label><br/>
+                            <input  id="mileage"   maxlength="17" name="Kilometer__c" size="20"  class="validate[required,custom[Mileage]] text-input" style="width:400px;" /><br/><hr color="white"></hr> 
+</td>
+<td>
+   <label>Дата покупки авто (ДД/ММ/ГГГГ)*</label><br/>
+                            <input  id="purchase"   maxlength="17" name="Date_of_Purchase_Web__c" class="validate[required,custom[date]] text-input" size="20" type="text" style="width:400px;" /><br/><hr color="white"></hr> 
+</td>
+<td>
+   <label>Дилер-продавец*</label><br/>
+                            <input  id="seller"   maxlength="17" name="Dealer_Seller_Web__c" class="validate[required] text-input" size="20" type="text" style="width:400px;" /><br/><hr color="white"></hr> 
+</td>
+<td>
+   <label>Дилер, у которого Вы были на сервисе (СТО)*</label><br/>
+                            <input  id="workshop1"   maxlength="17" name="PT_Dealer_Web__c" class="validate[required] text-input" size="20" type="text" style="width:400px;" /><br/><hr color="white"></hr> 
+</td>
+
+
+        
+       <label for=" ">Причина Вашей жалобы*</label><br/>
+             <textarea  id="Complemento" value="" name="description" maxlength="1500" size="225" style="width:400px;height:80px;" class="validate[required] " /><br/><hr color="white"></hr> 
+                          
+        
+          
+          
+
+<input  id="Email_Opt_In_Web__c"  maxlength="40"  name="Email_Opt_In_Web__c" size="20" type="checkbox"/>
+            <label for="emailopt" >Подписаться на новости Renault</label><br/><br></br>
+                    
+   <table>
+   <tr>             
+  <td>             
+<input  id="link"  maxlength="40"   size="20" name="sample"  class="validate[required]"  type="checkbox" value="1"/>    
+<a href="http://www.renault.ua/ru/general-sections/privacy-policy/index.jsp">Даю своё согласие на обработку указанных мной выше персональных данных*</a>
+</td></tr>
+</table><br></br>
+
+
+
+</div>      
+     <div id="button">
+            <input id="submitcheck" type="submit" style="background-color:#CCCCCC;" name="submit" class="validate[required] text-input"  value="Отправить"/><br></br></div><br/>  <br/> <br/> 
+            
+      </form><br/>  
+   </div>         
+</body>
+</html>
+</apex:page>

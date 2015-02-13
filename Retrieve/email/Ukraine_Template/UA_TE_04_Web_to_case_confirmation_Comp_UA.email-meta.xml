@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Web2Case confirmation (complaint) in UA</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>UA TE 04 Web-to-case confirmation - Comp. - UA</name>
+    <style>none</style>
+    <subject>Звернення # {!Case.CaseNumber}: Запит інформації на сайті Renault</subject>
+    <type>text</type>
+</EmailTemplate>

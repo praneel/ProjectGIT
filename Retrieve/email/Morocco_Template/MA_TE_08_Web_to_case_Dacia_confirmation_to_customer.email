@@ -1,0 +1,7 @@
+Cher {!Case.Title_Web__c}. {!Case.FirstName_Web__c} {!Case.LastName_Web__c},  
+ 
+Nous vous remercions de l'intérêt que vous portez à la marque Dacia à travers votre demande
+ 
+Le consultant en charge de votre dossier numéro #{!Case.CaseNumber} ne manquera pas de prendre contact avec vous afin de vous faire part des suites apportées à votre requête.
+
+Merci d’avoir contacter Dacia

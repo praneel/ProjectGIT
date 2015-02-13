@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CaseSharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <criteriaBasedRules>
+        <fullName>MA_CAS_SR01_Country_field_Sharing</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Morocco</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>CountryCase__c</field>
+            <operation>equals</operation>
+            <value>Morocco</value>
+        </criteriaItems>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <description>Morocco  Specific Sharing Rule</description>
+        <name>MA CAS SR01 Country field Sharing</name>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>UA_CAS_SR01_Country_field_Sharing</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Ukraine</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>CountryCase__c</field>
+            <operation>equals</operation>
+            <value>Ukraine</value>
+        </criteriaItems>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <description>This is a case sharing  rule</description>
+        <name>UA CAS SR01 Country field Sharing</name>
+    </criteriaBasedRules>
+    <ownerRules>
+        <fullName>MA_CAS_SR02_IntraCountry_Sharing</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Morocco</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Morocco</roleAndSubordinates>
+        </sharedFrom>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <description>Morocco Specific Sharing Rule</description>
+        <name>MA CAS SR02 IntraCountry Sharing</name>
+    </ownerRules>
+    <ownerRules>
+        <fullName>UA_CAS_SR02_Country_field_Sharing</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Ukraine</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Ukraine</roleAndSubordinates>
+        </sharedFrom>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <description>This is a case sharing  rule</description>
+        <name>UA CAS SR02 Country field Sharing</name>
+    </ownerRules>
+</CaseSharingRules>

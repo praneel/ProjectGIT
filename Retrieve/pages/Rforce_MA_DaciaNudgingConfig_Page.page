@@ -1,0 +1,30 @@
+<apex:page showHeader="false" sidebar="false">
+
+<!--Deployment code-->
+
+<script type='text/javascript' src='https://c.la2w1cs.salesforceliveagent.com/content/g/js/32.0/deployment.js'></script>
+<script type='text/javascript'>
+function buttonCallback(e) {
+if (e == liveagent.BUTTON_EVENT.BUTTON_AVAILABLE) { 
+    
+    document.getElementById('liveagent_invite_button_572m00000004COS').style.display ='block';
+    document.getElementById('liveagent_invite_button_572m00000004COS').style.left ='300px';
+    document.getElementById('liveagent_invite_button_572m00000004COS').style.top ='200px';
+}
+if (e == liveagent.BUTTON_EVENT.BUTTON_UNAVAILABLE) {
+    document.getElementById('liveagent_invite_button_572m00000004COS').style.display ='none';
+}
+if (e == liveagent.BUTTON_EVENT.BUTTON_ACCEPTED) {
+    document.getElementById('liveagent_invite_button_572m00000004COS').style.display ='none';
+}
+if (e == liveagent.BUTTON_EVENT.BUTTON_REJECTED) {
+    document.getElementById('liveagent_invite_button_572m00000004COS').style.display ='none';
+}
+}
+liveagent.addButtonEventHandler('572m00000004COS', buttonCallback);
+
+liveagent.init('https://d.la2w1cs.salesforceliveagent.com/chat', '572m00000004COS', '00Dm00000002GB7');
+</script>
+
+
+</apex:page>

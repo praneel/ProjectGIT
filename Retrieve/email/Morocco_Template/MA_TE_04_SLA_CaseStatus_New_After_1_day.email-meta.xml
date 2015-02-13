@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Morocco Case Status not changed after 1 day</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>MA TE 04 SLA CaseStatus New After 1 day</name>
+    <style>none</style>
+    <subject>Dossier réseaux #{!Case.CaseNumber} en attente depuis 1 jour</subject>
+    <type>text</type>
+</EmailTemplate>

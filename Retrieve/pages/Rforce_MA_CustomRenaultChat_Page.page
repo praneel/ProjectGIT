@@ -1,0 +1,181 @@
+<apex:page showHeader="false" standardStylesheets="false" >
+<head>
+    <link REL="shortcut icon" type="image/x-icon" HREF="{!URLFOR($Resource.Rforce_Favicon_STR)}" />   
+</head>
+<style>
+body { overflow: hidden; width: 100%; height: 100%; padding: 0; margin: 0 }
+#waitingMessage { height: 100%; width: 100%; vertical-align: middle; text-align: center;
+display: none; }
+#liveAgentClientChat.liveAgentStateWaiting #waitingMessage { display: table; }
+#liveAgentSaveButton, #liveAgentEndButton { z-index: 2; }
+.liveAgentChatInput { 
+height: 26px;
+border:1px solid #D0CFCB;
+padding: 2px 14% 2px 40px;
+background: #fff;
+display: block;
+width: 85%;
+}
+.liveAgentSendButton {
+display: block;
+width: 60px;
+height: 32px;
+position: absolute;
+top: 0;
+right: -67px;
+border:none;
+color:#fff;
+font-weight:bold;
+line-height:31px;
+background-color:#F7B113;
+background-image: url(images/buttons/gradient_univers_btn.png);
+background-position:0 0;
+background-repeat:repeat no-repeat;
+font-size:12px;
+cursor:pointer;
+}
+.liveAgentSaveButton, .liveAgentEndButton{float:left;margin:10px 10px 10px 0;background:#D0CFCB;color:#fff;font-weight:bold;border:none;line-height:20px;cursor:pointer}
+
+.liveAgentSaveButton{background:#D0CFCB !important}
+
+#liveAgentChatLog {
+width: auto;
+height: auto;
+border:none;
+background:#F4F4F4;
+top: 0px;
+position: absolute;
+overflow-y: auto;
+left: 0;
+right: 0;
+bottom: 0;
+}
+#liveAgentChatLogText, #liveAgentChatLogTyping {padding:6% 5% 5% 5%;line-height:18px}
+
+#liveAgentChatLogText span{padding-bottom: 20px;}
+
+#liveAgentChatLogText .operator{}
+#liveAgentChatLogText .client {color:#6C6F69}
+
+#liveAgentClientChat.liveAgentStateEnded {
+}
+#liveAgentClientChat.liveAgentState {
+}
+#liveAgentClientChat.liveAgentStateStatusMessage {
+}
+#liveAgentClientChat.liveAgentStateWaiting .contact_picture { 
+    display: none; 
+}
+#liveAgentClientChat.liveAgentStateEnded .contact_picture { 
+    display: none; 
+}
+#liveAgentClientChat.liveAgentState .contact_picture { 
+    display: block; 
+}
+#transcript .operator strong{background:#A2A5A4;color:#FFFFFF;margin-right:5px;padding:2px 8px}
+
+#transcript .client strong{background:#FFFFFF;color:#000000;margin-right:5px;padding:2px 8px}
+#liveAgentChatLogText .name{padding:0}
+</style>
+<c:Rforce_Style_Template />
+<script>
+liveagent.chasitor.addEntity('Case', 'true', null, null, 'Case');
+liveagent.chasitor.addEntity('Account', 'true', 'Case', 'AccountId', 'Account');
+liveagent.chasitor.addEntityFieldsMap('Account', 'FirstName', 'FirstName', 'false', 'false', 'true');
+liveagent.chasitor.addEntityFieldsMap('Case', 'Status', 'caseStatus', 'false', 'false', 'true');
+liveagent.chasitor.addEntityFieldsMap('Account', 'PersMobPhone__c', 'Telephone', 'false', 'false', 'true');
+liveagent.chasitor.addEntityFieldsMap('Account', 'AccountBrand__c', 'Brand', 'false', 'false', 'true');
+liveagent.chasitor.addEntityFieldsMap('Case', 'CaseBrand__c', 'CaseBrand', 'false', 'false', 'true');
+liveagent.chasitor.addEntityFieldsMap('Case', 'Origin', 'caseOrigin', 'false', 'false', 'true');
+liveagent.chasitor.addEntityFieldsMap('Account', 'PersEmailAddress__c', 'Email', 'true', 'true', 'true');
+liveagent.chasitor.addEntityFieldsMap('Case', 'Subject', 'caseSubject', 'false', 'false', 'true');
+liveagent.chasitor.addEntityFieldsMap('Case', 'Type', 'caseType', 'false', 'false', 'true');
+liveagent.chasitor.addEntityFieldsMap('Case', 'CaseSubSource__c', 'caseSubType', 'false', 'false', 'true');
+liveagent.chasitor.addEntityFieldsMap('Account', 'LastName', 'LastName', 'false', 'false', 'true');
+
+
+<!-- Added for passing Country Information  -->
+liveagent.chasitor.addEntityFieldsMap('Case', 'CountryCase__c', 'caseCountry', 'false', 'false', 'true');
+liveagent.chasitor.addEntityFieldsMap('Account', 'Language__c', 'chatLanguage', 'false', 'false', 'true');
+liveagent.chasitor.addEntityFieldsMap('Case', 'RecordTypeId', 'caseRecordType', 'false', 'false', 'true');
+<!-- End for passing Country Information -->
+
+</script>
+
+<!--
+ <div class="contact_picture">
+   Renault agent avatar  
+   <apex:image url="{!URLFOR($Action.Attachment.Download, agentPicture)}" rendered="{!agentPicture!=null}" />
+ </div>--> 
+
+<div class="floatL fullWidth clear">
+<!-- The root element for the chat window. This element gets a CSS class dynamically applied
+to indicate the state of the chat window. Available states are:
+"liveAgentStateWaiting" - indicates that the chat has not yet been answered.
+"liveAgentState" - indicates that the chat is engaged
+"liveAgentStateStatusMessage" - indicates that a status message is being displayed to the
+user.
+"liveAgentStateEnded" - indicates that the chat has ended. -->
+<liveAgent:clientchat >
+<div class="floatL clear" style="margin:5px">
+
+<div id="cliente_header">
+     <apex:image url="{!$Resource.Rforce_MA_RenaultChatHeader_STR}" />
+</div>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+<div class="floatL clear">
+<liveAgent:clientChatSaveButton label="Save" />
+<liveAgent:clientChatEndButton label="Quit" />
+</div>
+</div>
+
+
+<div style="top:100px;left:5px;right:10px;bottom:5px;position:absolute;z-index:0">
+<br></br>
+<br></br>
+<liveAgent:clientChatAlertMessage agentsUnavailableLabel="Tous nos conseillers clients sont actuellement occupés, vous pouvez nous contacter ultérieurement. Merci de votre compréhension" dismissLabel="Fermer " />
+<liveAgent:clientChatStatusMessage />
+<div id="transcript">
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+
+
+<table id="waitingMessage" cellpadding="0" cellspacing="0">
+<tr>
+<td>{!$Label.LiveAgent_CustomChat_WaitingMsg}
+
+<div class="searching_animation ">
+<div id="waiting" style="visibility:visible; display:block">
+<apex:image style="align:center;" value="{!URLFOR($Resource.Rforce_MyrGraphics_STR,'images/skin/loadwheel.gif')}" />
+</div>
+</div></td>
+</tr>
+</table>
+<div style="top: 0; right: 0; bottom: 38px; left: 0; padding: 0; position: absolute;word-wrap: break-word; z-index: 0">
+<liveAgent:clientChatLog />
+</div>
+<div style="position: absolute; height: auto; right: 0; bottom: 0; left: 0; margin-right:67px">
+ <div class="contact_picture" style="position:absolute">
+
+ <apex:image url="{!$Resource.Rforce_KeyboardchatIcon_STR}" />
+  
+ </div>
+
+<liveagent:clientChatInput /><liveAgent:clientChatSendButton label="{!$Label.LiveAgent_CustomChat_Send}"/>
+</div>
+</div></div>
+</liveAgent:clientchat>
+</div>
+</apex:page>

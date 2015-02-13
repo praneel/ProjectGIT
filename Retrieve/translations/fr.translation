@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customLabels>
+        <label>Certains lead doublons n&apos;ont pas pu être réaffectés.</label>
+        <name>LMT_Reassignation_DuplicateNotReassigned</name>
+    </customLabels>
+    <customLabels>
+        <label>Les critères pour envoyer une opportunité dans le réseau ne sont pas tous respectés (voir document de formation aux opportunités commerciales)</label>
+        <name>LeadConvesionError</name>
+    </customLabels>
+    <customLabels>
+        <label>Cette piste a été déjà convertie en opportunité.</label>
+        <name>LeadConvesionError1</name>
+    </customLabels>
+    <customLabels>
+        <label>Merci de votre attente, un agent est en cours de connexion pour répondre à l&apos;ensemble de vos questions</label>
+        <name>LiveAgent_CustomChat_WaitingMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RForce_MA_CAS_RecordType --></label>
+        <name>RForce_MA_CAS_RecordType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RForce_SlaProcessId --></label>
+        <name>RForce_SlaProcessId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RForce_UA_CAS_RecordType --></label>
+        <name>RForce_UA_CAS_RecordType</name>
+    </customLabels>
+</Translations>

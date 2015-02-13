@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skill xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <users>
+            <user>ma_testuser-fo-la@renault.com</user>
+        </users>
+    </assignments>
+    <label>RForce_MA_Dacia_Skills_FO</label>
+</Skill>

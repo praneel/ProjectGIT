@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>CountRelationV2__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>This field counts the number of relation linked to the current vehicle. It replaces the CountRelation roll-up summary field.</description>
+        <externalId>false</externalId>
+        <label>CountRelationV2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>VCD__c</fullName>
+        <description>Vehicle Completely Defined</description>
+        <externalId>false</externalId>
+        <label>VCD</label>
+        <length>131072</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+</CustomObject>

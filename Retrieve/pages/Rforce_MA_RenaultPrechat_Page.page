@@ -1,0 +1,221 @@
+<apex:page showHeader="false">
+ <html>
+  <head>
+  <link rel="stylesheet" href="{!URLFOR($Resource.Rforce_prechatResources_STR,'web2case/css/validationEngine.jquery.css')}" type="text/css" media="screen" title="no title" charset="utf-8" />
+  <script src="{!URLFOR($Resource.Rforce_prechatResources_STR,'web2case/js/jquery_min.js')}" language="JavaScript" type="text/javascript"></script>
+  
+  <script src="{!URLFOR($Resource.Rforce_prechatResources_STR,'web2case/js/jquery.validationEngine-ma.js')}" type="text/javascript"></script>
+  <script src="{!URLFOR($Resource.Rforce_prechatResources_STR,'web2case/js/jquery.validationEngine.js')}" type="text/javascript"></script>
+ 
+
+    <script type='text/javascript' src='{!$Label.LiveAgent_Prechat_URL}'></script>
+  
+  <style type="text/css">
+
+  .frmLoginCamposPanel {
+      position: relative; width: 400px; text-align: center; top: 130px;
+      font-size: 16px;font-family: Arial, Helvetica, sans-serif; 
+      color: #67625b; font-weight: normal; left:35px;border:0px solid #00FFFF;
+      vertical-align:middle;
+   }
+
+  .frmLoginCamposPanel .labelInput {
+      border: 0px solid #00FF00; float: left; width: 130px;
+      height: 25px; text-align: right; line-height: 20px;font-size:12px !important;
+   }
+
+  .frmLoginCamposPanel .formInput {
+      float: right; width: 250px; height: 25px;
+      border: 0px solid #a2a2a2; text-align: left; color:#67625b; font-size:11px;
+   }
+
+  .frmLoginCamposPanel .formTextBox {
+      width: 200px; border: 1px solid #a2a2a2; height:15px;
+   }
+
+  .frmLoginCamposPanel .formComboBox {
+      width: 200px; border: 1px solid #a2a2a2;
+   }  
+  </style> 
+  </head>
+  
+   <script type="text/javascript">
+   $(document).ready(function() {
+        $("#prechatForm").validationEngine()
+    });
+  </script>
+  
+  <script>
+  function validationcomplete(){
+    // redirectPage();
+       var type= document.getElementById('type');
+       var subject= type.options[type.selectedIndex].value;                    
+       if(subject=="Information Request"){ 
+               
+            document.getElementById('subject').value="DEMANDE INFORMATION";         
+       }
+       if(subject=="Complaint"){ 
+           
+           document.getElementById('subject').value="RECLAMATION";   
+       }
+       if(subject=="Service Request"){ 
+           
+           document.getElementById('subject').value="DEMANDE SERVICE";  
+       }
+       if(subject=="Other"){ 
+            
+           document.getElementById('subject').value="AUTRES";    
+       }  
+    
+    
+    
+  }
+  </script>
+  
+ <body>
+ <!-- This script takes the endpoint URL parameter passed from the deployment page and makes
+ it the action for the form -->
+ <script type="text/javascript">
+ (function() {
+ function handlePageLoad() {
+ 
+ // “handlePageLoad()” method that includes the “prechatInit()” method
+ 
+ 
+ var endpointMatcher = new RegExp("[\\?\\&]endpoint=([^&#]*)");
+ document.getElementById('prechatForm').setAttribute('action',
+ decodeURIComponent(endpointMatcher.exec(document.location.search)[1]));
+ }
+ if (window.addEventListener) {
+ window.addEventListener('load', handlePageLoad, false);
+ } else { window.attachEvent('onload', handlePageLoad, false);
+ }})();
+ 
+ 
+
+ </script>
+
+ <form method="post" id="prechatForm">
+  <div id="cliente_header" display="none">
+        <div class="cliente_header_fechar" align="right">
+            <a id="closeButton" href="javascript:window.close();"><apex:image url="{!$Resource.Rforce_RenaultCloseButton_STR}"  onclick="javascript:window.close();"/></a>
+        </div>
+        
+        <div class="cliente_header_logo" > 
+            
+            <apex:image url="{!$Resource.Rforce_MA_RenaultChatHeader_STR}"  width="480" />
+        </div>
+   </div>
+   <table align="center" cellspacing="5">
+  <tr>
+  <table align="center"  class=".frmLoginCamposPanel clearfix">
+    <tr>
+       <td class="labelInput">Prénom* :</td><td>
+        <input type="text" name="liveagent.prechat:FirstName" id="FirstNameMapping" style="formTextBox" class="validate[required,custom[noSpecialCaracters],length[0,20]] text-input" />
+       </td>
+    </tr>
+    <tr>
+      <td class="labelInput">Nom* :</td><td> 
+         <input type="text" name="liveagent.prechat:LastName" id="SecondNameMapping" style="formTextBox" class="validate[required,custom[noSpecialCaracters],length[0,20]] text-input" />
+      </td>
+    </tr>
+    <tr>
+       <td class="labelInput">Adresse e-mail*:</td><td> 
+          <input type="text" name="liveagent.prechat:Email" id="EmailMapping" style="formTextBox" class="validate[required,custom[email],length[0,70]] text-input" />
+        </td>
+    </tr>
+    <tr>
+       <td class="labelInput">Numéro de téléphone* :</td><td>      
+         <input type="text" name="liveagent.prechat:Telephone" id="TelMapping" style="formTextBox" class="validate[custom[telephone]] text-input" />
+       </td>
+    </tr>
+    <tr>      
+         
+                 <td class="labelInput">Type*:</td>   
+            <td>
+            <select  id="type" name="liveagent.prechat:caseType">
+                        <option value=" ">--Aucun--</option>
+                        <option value="Complaint">Réclamation</option>
+                        <option value="Information Request">Demande d'information</option>
+                        <option value="Service Request">Demande de service</option> 
+                        <option value="Other">Autre</option>
+                                               
+                </select>
+              
+            </td>
+ </tr>  
+ 
+ 
+ 
+    
+     <tr>
+       <table cellpadding="0" cellspacing="10" align="center">
+       <tr>
+           <td width="25%">&nbsp;</td>
+           <td>   
+
+            <input type="hidden" name="liveagent.prechat:Brand" id="brandType" value="Renault" />
+            <input type="hidden" name="liveagent.prechat:chatLanguage" id="chatLanguage" value="French" />
+    
+ 
+<!-- Map the detail inputs to the Contact fields -->
+<input type="hidden" name="liveagent.prechat.findorcreate.map:Account" value="FirstName,FirstName;LastName,LastName;PersEmailAddress__c,Email;PersMobPhone__c,Telephone;AccountBrand__c,Brand;Language__c,chatLanguage;" />
+ 
+<!-- Try to find the Contact by email (exact match) -->
+<input type="hidden" name="liveagent.prechat.findorcreate.map.doFind:Account" value="PersEmailAddress__c,true;" />
+<input type="hidden" name="liveagent.prechat.findorcreate.map.isExactMatch:Account" value="PersEmailAddress__c,true;" />
+ 
+<!-- If the Contact is not found, then create one with the following fields set -->
+<input type="hidden" name="liveagent.prechat.findorcreate.map.doCreate:Account" value="FirstName,true;LastName,true;PersEmailAddress__c,true;PersMobPhone__c,true;AccountBrand__c,true;Language__c,true" />
+ 
+<!-- Save the Contact on the Live Chat Transcript's Contact Loookup -->
+<input type="hidden" name="liveagent.prechat.findorcreate.saveToTranscript:Account" value="Account" />
+ 
+<!-- Show the Contact when it is found or created -->
+<input type="hidden" name="liveagent.prechat.findorcreate.showOnCreate:Account" value="true" />
+ 
+<!-- Create a Case every time -->
+<input type="hidden" name="liveagent.prechat:caseOrigin" id="origin" value="Chat" />
+<input type="hidden" name="liveagent.prechat:caseSubject" id="subject" value="" />
+<input type="hidden" name="liveagent.prechat:caseStatus" value="New" />
+<input type="hidden" name="liveagent.prechat:caseSubType" value="Renault Site" />
+<input type="hidden" name="liveagent.prechat:caseLiveAgent" value="True" />
+<input type="hidden" name="liveagent.prechat:caseType" id="type" value="" />
+
+
+
+<!-- Added below two lines to pass Country values while creating Case from LiveAgent  -->
+<input type="hidden" name="liveagent.prechat:caseCountry" value="Morocco" />
+<input type="hidden" name="liveagent.prechat:caseRecordType" value="{!$Label.RForce_MA_CAS_RecordType}"/>
+<input type="hidden" name="liveagent.prechat:CaseBrand" id="brand" value="Renault" />
+
+<!-- Updated the below two lines to pass caseCountry values -->
+<input type="hidden" name="liveagent.prechat.findorcreate.map:Case" value="Origin,caseOrigin;Subject,caseSubject;Type,caseType;Status,caseStatus;CaseSubSource__c,caseSubType;CaseBrand__c,CaseBrand;CountryCase__c,caseCountry;recordType,caseRecordType" />
+
+<input type="hidden" name="liveagent.prechat.findorcreate.map.doCreate:Case" value="Origin,true;Type,true;Status,true;CaseSubSource__c,true;CaseBrand__c,true;CountryCase__c,true;recordType,true" />
+<input type="hidden" name="liveagent.prechat.findorcreate.saveToTranscript:Case" value="Case" />
+<input type="hidden" name="liveagent.prechat.findorcreate.showOnCreate:Case" value="true" />
+ 
+<!-- Link the Contact to the Case -->
+<input type= "hidden" name="liveagent.prechat.findorcreate.linkToEntity:Account" value="Case,AccountId" />
+ 
+
+<input type="submit" class="button1" id='prechat_submit' style="background-image:url('{!$Resource.Rforce_SendButton_STR}'); height: 31px;  width: 82px" value=" " name="submit"></input>
+
+        <br></br>
+       </td>
+     </tr>
+  <tr>
+        <td colspan="2">(*) Champs obligatoires</td>
+     </tr>
+     
+  </table>
+       </tr>
+  </table>
+  </tr>
+  </table>
+      
+</form>
+</body>
+</html>
+</apex:page>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Country_Code_2L__c</fullName>
+        <externalId>false</externalId>
+        <label>Country Code 2L</label>
+        <length>2</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Country_Code_3L__c</fullName>
+        <externalId>false</externalId>
+        <label>Country Code 3L</label>
+        <length>3</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CurrencyCode__c</fullName>
+        <description>This is for store currency code information</description>
+        <externalId>false</externalId>
+        <label>CurrencyCode</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Do_not_mass_assign_duplicate_leads__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>LMT - Check to disable mass assignment of duplicate leads</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check to disable mass assignment of duplicate leads</inlineHelpText>
+        <label>Do not mass assign duplicate leads</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Language__c</fullName>
+        <description>It will contain the information about language used in the country</description>
+        <externalId>false</externalId>
+        <inlineHelpText>language used in the country</inlineHelpText>
+        <label>Language</label>
+        <length>20</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>

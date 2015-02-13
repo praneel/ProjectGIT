@@ -1,0 +1,30 @@
+<project name="Sample usage of Salesforce Ant tasks" default="Retrieve" basedir="." xmlns:sf="antlib:com.salesforce">
+
+    <property file="build.properties"/>
+    <property environment="env"/>
+
+    <taskdef resource="com/salesforce/antlib.xml" uri="antlib:com.salesforce">
+        <classpath>
+            <pathelement location="../ant-salesforce.jar" />
+        </classpath>
+    </taskdef>
+
+
+    <target name="Retrieve">
+      <sf:retrieve username="${source_sf.username}" password="${source_sf.password}" serverurl="${source_sf.serverurl}" retrieveTarget="Retrieve" unpackaged="Package/package.xml"/>
+    </target>
+	
+	
+    <target name="RetrieveProd">
+      <sf:retrieve username="${source_sf.username}" password="${source_sf.password}" serverurl="${source_sf.serverurl}" retrieveTarget="RetrieveProd" unpackaged="Package/package.xml"/>
+    </target>
+	
+ 
+
+    <target name="Deploy">
+      <sf:deploy username="${target_sf.username}" password="${target_sf.password}" serverurl="${target_sf.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="UAT_BACKUP" checkOnly="true" runalltests="false"/>
+    </target>
+
+	
+
+</project>

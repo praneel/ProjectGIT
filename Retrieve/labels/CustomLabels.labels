@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>LMT_Reassignation_DuplicateNotReassigned</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LMT_Reassignation_DuplicateNotReassigned</shortDescription>
+        <value>Some duplicate leads have not been reassigned.</value>
+    </labels>
+    <labels>
+        <fullName>LeadConvesionError</fullName>
+        <categories>Lead</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LeadConvesionError</shortDescription>
+        <value>This Lead can not be converted since the criteria are not met</value>
+    </labels>
+    <labels>
+        <fullName>LeadConvesionError1</fullName>
+        <categories>Lead</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LeadConvesionError1</shortDescription>
+        <value>This Lead had been converted To Opportunity already.</value>
+    </labels>
+    <labels>
+        <fullName>LiveAgent_CustomChat_WaitingMsg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel</shortDescription>
+        <value>Please wait while connecting to representatives / agents</value>
+    </labels>
+    <labels>
+        <fullName>RForce_MA_CAS_RecordType</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RForce_MA_CAS_RecordType</shortDescription>
+        <value>012m00000000InD</value>
+    </labels>
+    <labels>
+        <fullName>RForce_SlaProcessId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RForce_SlaProcessId</shortDescription>
+        <value>552b0000000H2Dl</value>
+    </labels>
+    <labels>
+        <fullName>RForce_UA_CAS_RecordType</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RForce_UA_CAS_RecordType</shortDescription>
+        <value>012m00000000InE</value>
+    </labels>
+</CustomLabels>

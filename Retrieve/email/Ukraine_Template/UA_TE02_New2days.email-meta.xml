@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>The  case owner has not sent an answer to customer within 48 calendar hours(status should be either &quot;Answered&quot; or &quot;Resolved&quot; or &quot;Closed&quot;)</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>UA TE02 New2days</name>
+    <style>none</style>
+    <subject>ВНИМАНИЕ: Рекламация требует решения</subject>
+    <type>text</type>
+</EmailTemplate>

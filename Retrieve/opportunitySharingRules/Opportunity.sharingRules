@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpportunitySharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <criteriaBasedRules>
+        <fullName>MA_Opportunity_SR01_Country_Sharing_Rules</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Morocco</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Opportunity_Country__c</field>
+            <operation>equals</operation>
+            <value>Morocco</value>
+        </criteriaItems>
+        <description>Opportunity sharing for Morocco</description>
+        <name>MA Opportunity SR01 Country Sharing Rules</name>
+        <opportunityAccessLevel>Read</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>UA_Opportunity_SR01_Country_Sharing_Rules</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Ukraine</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Opportunity_Country__c</field>
+            <operation>equals</operation>
+            <value>Ukraine</value>
+        </criteriaItems>
+        <description>RForce
+Opportunity sharing for Ukraine</description>
+        <name>UA Opportunity SR01 Country Sharing Rules</name>
+        <opportunityAccessLevel>Read</opportunityAccessLevel>
+    </criteriaBasedRules>
+</OpportunitySharingRules>

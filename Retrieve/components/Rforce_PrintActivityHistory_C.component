@@ -1,0 +1,108 @@
+<apex:component >
+<style>
+.sorting {
+    background:#1797C0 url('{!URLFOR($Resource.Rforce_PrintActivityImages_Str, 'images/sortneutral.png') }') no-repeat center right !important;
+    //padding-left: 20px !important;
+    background-image: url(../img/small.gif);     
+    cursor: pointer; 
+    font-weight: bold; 
+    background-repeat: no-repeat; 
+    background-position: center left; 
+    padding-left: 20px; 
+    border-right: 1px solid #dad9c7; 
+    margin-left: -1px; 
+    
+}
+thead.tr th.sorting,thead.tr th.sorting_desc{
+    background-color:#A9F5F2 !important;
+}
+
+.headerStyle{
+  Color:#FFFFFF !important;
+  width:100%;
+  text-align:left;
+  }
+
+td a{
+font-weight:bold;
+}
+header h1{
+    font-size:1.8em;
+    font-weight:normal;
+    line-height:1.1em;
+    text-align:center;
+}
+th:nth-child(4) div{
+ background:url('{!URLFOR($Resource.Rforce_PrintActivityImages_Str, 'images/attach.png') }'); 
+ width:10px;
+ height:10px;
+}
+
+.posEntriesDiv table thead tr th{
+    cursor:pointer;
+    background-color:#A9F5F2;
+}
+.odd{
+    background-color:lightgray;
+}
+.even{
+    background-color:white;
+}
+.searchLinks li{
+    float:left;
+    // list-style:none;
+    padding: 3px;
+    margin:6px;
+} 
+.searchLinks li a{
+    text-decoration:inherit;
+    background-color: #E7FF9E;
+}
+.searchLinks{
+    margin-left:40px;
+    background-color: #E7FF9E;
+}
+.dataTables_filter, .dataTables_info{
+    //  display:none;
+   float:right;
+   
+}      
+.sorting_asc {
+    background:#A9C2C8 url('{! URLFOR($Resource.Rforce_PrintActivityImages_Str, 'images/sortdown.png') }') no-repeat center right !important;
+    padding-right: 20px !important;
+}
+.sorting_desc {
+   background:#A9C2C8 url('{! URLFOR($Resource.Rforce_PrintActivityImages_Str, 'images/sortup.png') }') no-repeat center right !important;
+   // padding-right: 20px !important;
+}
+.sorting_asc_disabled {
+    background: #f2f3f3;// url('{! URLFOR($Resource.Rforce_PrintActivityImages_Str, 'Images/sort_asc_disabled.png') }') no-repeat center right !important;
+   // padding-right: 20px !important;
+}
+.sorting_desc_disabled {
+    background: #f2f3f3;
+    padding-right: 20px !important;
+}
+
+table.dataTable tr.odd { background-color: white; }
+table.dataTable tr.even { background-color: white; }
+table.dataTable tr.odd td.sorting_1 { background-color: white; }
+table.dataTable tr.odd td.sorting_2 { background-color: white; }
+table.dataTable tr.odd td.sorting_3 { background-color: white; }
+table.dataTable tr.even td.sorting_1 { background-color: white; }
+table.dataTable tr.even td.sorting_2 { background-color: white; }
+table.dataTable tr.even td.sorting_3 { background-color: white; }
+.dataTables_length, .dataTables_filter, .dataTables_info, .dataTables_paginate {
+    padding: 1px;
+    font-size:10px;
+}
+div.dataTables_filter,div.dataTables_info{
+display:block;
+font-size:10px;
+}
+.dataTables_filter input{
+background: #fff url("{!$Resource.Rforce_SearchImage_Str}") no-repeat 95% 50%;
+padding: 0 15px 0 5px;
+}
+</style>
+</apex:component>

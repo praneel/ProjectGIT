@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AccountSharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <criteriaBasedRules>
+        <fullName>MA_ACC_SR01_Country_field_sharing</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Morocco</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Country__c</field>
+            <operation>equals</operation>
+            <value>Morocco</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>Morocco Specific Sharing Rule</description>
+        <name>MA ACC SR01 Country field sharing</name>
+        <opportunityAccessLevel>None</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>UA_ACC_SR01_Country_field_sharing</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Ukraine</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Country__c</field>
+            <operation>equals</operation>
+            <value>Ukraine</value>
+        </criteriaItems>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>Read</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>UA ACC SR01 Country field sharing</name>
+        <opportunityAccessLevel>None</opportunityAccessLevel>
+    </criteriaBasedRules>
+    <ownerRules>
+        <fullName>MA_ACC_SR02_IntraCountryRole_Sharing</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Morocco</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Morocco</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>Morocco Specific Sharing Rule</description>
+        <name>MA ACC SR02 IntraCountryRole Sharing</name>
+        <opportunityAccessLevel>None</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>UA_ACC_SR02_Country_field_sharing</fullName>
+        <sharedTo>
+            <roleAndSubordinates>Ukraine</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Ukraine</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Edit</accountAccessLevel>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <description>This is a account sharing  rule</description>
+        <name>UA ACC SR02 Country field sharing</name>
+        <opportunityAccessLevel>None</opportunityAccessLevel>
+    </ownerRules>
+</AccountSharingRules>
